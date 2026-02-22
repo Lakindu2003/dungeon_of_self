@@ -1,0 +1,41 @@
+task_id,Question,Level,Final answer,file_name,file_path,Annotator Metadata,category
+dummy_001,"What is 15% of 240?",1,36,,,"{}",Math
+dummy_002,"If a train travels at 60 mph for 2.5 hours, how far does it travel?",1,150,,,"{}",Math
+dummy_003,"What is the square root of 144?",1,12,,,"{}",Math
+dummy_004,"A rectangle has length 8 and width 5. What is its area?",1,40,,,"{}",Math
+dummy_005,"What is the capital of Australia?",1,Canberra,,,"{}",Geography
+dummy_006,"Which country has the largest land area in the world?",1,Russia,,,"{}",Geography
+dummy_007,"On which continent is the Sahara Desert located?",1,Africa,,,"{}",Geography
+dummy_008,"What is the chemical symbol for gold?",2,Au,,,"{}",Science
+dummy_009,"How many bones are in the adult human body?",2,206,,,"{}",Science
+dummy_010,"What is the speed of light in a vacuum in metres per second?",2,299792458,,,"{}",Science
+dummy_011,"Which planet in our solar system has the most moons?",2,Saturn,,,"{}",Science
+dummy_012,"In what year did World War II end?",1,1945,,,"{}",History
+dummy_013,"Who wrote the play Hamlet?",1,William Shakespeare,,,"{}",History
+dummy_014,"Which empire was ruled by Julius Caesar?",2,Roman Empire,,,"{}",History
+dummy_015,"What does CPU stand for?",1,Central Processing Unit,,,"{}",Coding
+dummy_016,"In Python, what built-in function returns the length of a list?",1,len,,,"{}",Coding
+dummy_017,"What sorting algorithm has an average time complexity of O(n log n)?",2,Merge sort,,,"{}",Coding
+dummy_018,"What does HTTP stand for?",1,HyperText Transfer Protocol,,,"{}",Coding
+dummy_019,"If you roll two fair six-sided dice, what is the probability of getting a sum of 7?",2,1/6,,,"{}",Reasoning
+dummy_020,"A farmer has 17 sheep. All but 9 die. How many sheep are left?",1,9,,,"{}",Reasoning
+dummy_021,"What comes next in the sequence: 2, 4, 8, 16, ...?",1,32,,,"{}",Reasoning
+dummy_022,"Three boxes contain apples, oranges, and a mix. All labels are wrong. You pick one fruit from the box labelled Mix and it is an apple. What is in the box labelled Oranges?",3,Mix,,,"{}",Reasoning
+dummy_023,"What is the powerhouse of the cell?",1,Mitochondria,,,"{}",Science
+dummy_024,"Who developed the theory of general relativity?",1,Albert Einstein,,,"{}",History
+dummy_025,"Which element has atomic number 1?",1,Hydrogen,,,"{}",Science
+dummy_026,"What is 2 raised to the power of 10?",2,1024,,,"{}",Math
+dummy_027,"Name the data structure that follows Last-In First-Out (LIFO) order.",1,Stack,,,"{}",Coding
+dummy_028,"Which country hosted the 2008 Summer Olympics?",2,China,,,"{}",Knowledge
+dummy_029,"How many players are on a standard soccer team on the field?",1,11,,,"{}",Knowledge
+dummy_030,"What is the longest river in the world?",2,Nile,,,"{}",Geography
+dummy_031,"What is the chemical formula for water?",1,H2O,,,"{}",Science
+dummy_032,"In which year was the first iPhone released?",2,2007,,,"{}",Knowledge
+dummy_033,"What is the output of print(type([])) in Python?",2,<class 'list'>,,,"{}",Coding
+dummy_034,"If a car depreciates at 15% per year, what percentage of its value remains after 2 years?",3,72.25,,,"{}",Math
+dummy_035,"Name the philosopher who wrote Critique of Pure Reason.",2,Immanuel Kant,,,"{}",History
+dummy_036,"What is the Big O complexity of binary search?",2,O(log n),,,"{}",Coding
+dummy_037,"How many continents are on Earth?",1,7,,,"{}",Geography
+dummy_038,"What is the freezing point of water in Celsius?",1,0,,,"{}",Science
+dummy_039,"Which programming language is primarily used for iOS app development?",2,Swift,,,"{}",Coding
+dummy_040,"A clock shows 3:15. What is the angle between the hour and minute hands?",3,7.5,,,"{}",Math

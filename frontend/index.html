@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dungeon of Self</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- ── Top Bar ─────────────────────────────────────────────────────────── -->
+  <header id="topbar">
+    <button id="btn-close" class="close-btn" title="End run">✕</button>
+    <span class="title">DUNGEON OF SELF</span>
+
+    <div class="bar-group">
+      <span class="bar-label">HP</span>
+      <div class="bar-track"><div class="bar-fill" id="hp-bar"></div></div>
+      <span class="bar-val" id="hp-val">100 / 100</span>
+    </div>
+
+    <div class="bar-group">
+      <span class="bar-label">XP</span>
+      <div class="bar-track xp"><div class="bar-fill xp" id="xp-bar"></div></div>
+      <span class="bar-val" id="xp-val">0 / 1</span>
+    </div>
+
+    <div class="sp-badge" id="sp-badge" title="Skill Points">
+      <span class="sp-icon">⭐</span><span id="sp-val">0</span> SP
+    </div>
+
+    <div class="ability-btns">
+      <button class="ability-btn" id="btn-reroll">🎲 Reroll <span class="ability-count" id="cnt-reroll">3</span></button>
+      <button class="ability-btn" id="btn-flee">🏃 Flee <span class="ability-count" id="cnt-flee">3</span></button>
+      <button class="ability-btn" id="btn-double">⚡ Double <span class="ability-count" id="cnt-double">3</span></button>
+    </div>
+  </header>
+
+  <!-- ── Start Overlay ──────────────────────────────────────────────────── -->
+  <div id="start-overlay">
+    <div class="start-card">
+      <h1>DUNGEON OF SELF</h1>
+      <p class="subtitle">Are LLMs self-aware?</p>
+      <label>Ollama Model
+        <input type="text" id="inp-model" value="llama3" />
+      </label>
+      <label>Seed
+        <input type="number" id="inp-seed" value="42" />
+      </label>
+      <label>Max Chambers
+        <input type="number" id="inp-max" value="20" min="1" max="200" />
+      </label>
+      <button id="btn-start">▶ Start Run</button>
+    </div>
+  </div>
+
+  <!-- ── Main Layout ─────────────────────────────────────────────────────── -->
+  <main id="main-layout">
+
+    <!-- Left: Skill Tree + Map -->
+    <aside id="left-panel">
+      <section class="panel-section">
+        <h2 class="panel-title">SKILL TREE</h2>
+
+        <div class="skill-category-label">PROMPT ENGINEERING</div>
+        <div class="skill-row" id="sk-pe">
+          <span class="skill-pill" data-id="base-pe">Base</span>
+          <span class="skill-pill" data-id="pe_cot">CoT</span>
+          <span class="skill-pill" data-id="pe_plan">Plan+Reflect</span>
+          <span class="skill-pill" data-id="pe_reflect">Reflection++</span>
+        </div>
+
+        <div class="skill-category-label">CONTEXT</div>
+        <div class="skill-row" id="sk-ctx">
+          <span class="skill-pill active" data-id="base-ctx">Base</span>
+          <span class="skill-pill" data-id="ctx_enough">Enough</span>
+          <span class="skill-pill" data-id="ctx_overload">Overload</span>
+          <span class="skill-pill" data-id="ctx_summarise">Summariser</span>
+        </div>
+
+        <div class="skill-category-label">TOOLS</div>
+        <div class="skill-row" id="sk-tools">
+          <span class="skill-pill tool" data-id="tool_calc">Calc 🧮</span>
+          <span class="skill-pill tool" data-id="tool_web">Search 🔍</span>
+          <span class="skill-pill tool" data-id="tool_memory">Memory 🧠</span>
+        </div>
+      </section>
+
+      <section class="panel-section">
+        <h2 class="panel-title">DUNGEON MAP</h2>
+        <div id="dungeon-map"></div>
+      </section>
+    </aside>
+
+    <!-- Centre: Chamber -->
+    <section id="centre-panel">
+      <div id="chamber-header">
+        <span id="chamber-icon">🚪</span>
+        <span id="chamber-title">CHAMBER — WAITING FOR RUN</span>
+      </div>
+      <p id="chamber-subtitle">Start a run to begin the dungeon.</p>
+      <div id="doors-grid"></div>
+    </section>
+
+    <!-- Right: Stats + Log -->
+    <aside id="right-panel">
+      <section class="panel-section">
+        <h2 class="panel-title">SESSION STATS</h2>
+        <div class="stats-grid">
+          <div class="stat-box"><div class="stat-num" id="stat-correct">0</div><div class="stat-lbl">CORRECT</div></div>
+          <div class="stat-box"><div class="stat-num wrong" id="stat-wrong">0</div><div class="stat-lbl">WRONG</div></div>
+          <div class="stat-box"><div class="stat-num" id="stat-rooms">0</div><div class="stat-lbl">ROOMS</div></div>
+          <div class="stat-box"><div class="stat-num" id="stat-skills">0</div><div class="stat-lbl">SKILLS</div></div>
+        </div>
+      </section>
+
+      <section class="panel-section log-section">
+        <h2 class="panel-title">AGENT LOG</h2>
+        <div id="agent-log"></div>
+      </section>
+    </aside>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────────────────────────────────── -->
+  <footer id="footer">
+    <span id="footer-model">Model: —</span> ·
+    <span id="footer-run">Run: —</span> ·
+    <span id="footer-status">Status: idle</span>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
