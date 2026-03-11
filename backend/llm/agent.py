@@ -39,17 +39,14 @@ from backend.game.skill_tree import (
 from backend.game.abilities import do_flee, do_reroll, resolve_double_down
 from backend.game.scorer import check_answer
 from backend.logging.run_logger import RunLogger, extract_tag
-from backend.llm import ollama_client
 from backend.llm import gemini_client
 from backend.llm.prompts import (
     build_answer_prompt,
     build_reflect_prompt,
     build_strategy_prompt,
-    build_web_search_query_prompt,
 )
 from backend.llm.tools.calculator import evaluate as calc_evaluate
 from backend.llm.tools.memory import apply_memory_store, format_memory_block
-from backend.llm.tools.web_search import search_and_fetch
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -256,9 +253,8 @@ def run_agent(
                 )
 
                 push_log("SYSTEM", f"Prompting LLM for strategy (Chamber {chamber_iter + 1})")
-                strategy_raw = ollama_client.call(
+                strategy_raw = gemini_client.call(
                     messages=[{"role": "user", "content": strategy_prompt}],
-                    model=model,
                 )
                 push_log("LLM AGENT", strategy_raw)
                 logger.log_event("strategy_call", {
@@ -362,17 +358,8 @@ def run_agent(
             answered_ids_set.add(slot.task_id)
             push_log("SYSTEM", f"Entering door — Question (Level {slot.level}, {slot.category}): {slot.question}")
 
-            # Pre-answer: web search
-            web_block = ""
-            if "tool_web" in state.active_skills:
-                query_prompt = build_web_search_query_prompt(slot.question)
-                query_raw = ollama_client.call(
-                    messages=[{"role": "user", "content": query_prompt}],
-                    model=model,
-                )
-                search_query = extract_tag(query_raw, "search_query") or slot.question
-                push_log("SYSTEM", f"Web search query: {search_query}")
-                web_block = search_and_fetch(search_query)
+            # Pre-answer: web search — Gemini native grounding (no extra call)
+            use_web_search = "tool_web" in state.active_skills
 
             # Memory block
             memory_block = format_memory_block(state.memory_store) if "tool_memory" in state.active_skills else ""
@@ -387,12 +374,11 @@ def run_agent(
                 active_skills=state.active_skills,
                 context_block=context_block,
                 memory_block=memory_block,
-                web_block=web_block,
             )
             push_log("SYSTEM", f"Prompting LLM for answer (1 call budget)")
-            answer_raw = ollama_client.call(
+            answer_raw = gemini_client.call(
                 messages=[{"role": "user", "content": answer_prompt}],
-                model=model,
+                use_web_search=use_web_search,
             )
             push_log("LLM AGENT", answer_raw)
 
@@ -421,9 +407,8 @@ def run_agent(
             if "pe_reflect" in state.active_skills and first_answer:
                 reflect_prompt = build_reflect_prompt(slot.question, first_answer)
                 push_log("SYSTEM", "Reflection call invoked.")
-                reflect_raw = ollama_client.call(
+                reflect_raw = gemini_client.call(
                     messages=[{"role": "user", "content": reflect_prompt}],
-                    model=model,
                 )
                 push_log("LLM AGENT", reflect_raw, tag="reflection")
                 revised = extract_tag(reflect_raw, "final_answer")

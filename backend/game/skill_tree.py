@@ -82,7 +82,7 @@ SKILL_TREE: dict[str, Skill] = {
         id="tool_web",
         name="Search",
         category="tools",
-        description="Web search via Tavily + fetch first 3 pages. Uses an extra LLM call.",
+        description="Enables Gemini native Google Search grounding on the answer call (no extra call).",
         requires=None,
         cost=SKILL_COSTS["tool_web"],
     ),

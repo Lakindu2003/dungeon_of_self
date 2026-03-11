@@ -24,7 +24,7 @@ from pydantic import BaseModel
 from sse_starlette.sse import EventSourceResponse
 
 from backend.llm.agent import run_agent
-from backend.config import MAX_CHAMBERS, OLLAMA_MODEL
+from backend.config import MAX_CHAMBERS, GEMINI_MODEL
 
 FRONTEND_DIR = Path(__file__).parent.parent / "frontend"
 
@@ -54,7 +54,7 @@ async def root():
 # ── API ───────────────────────────────────────────────────────────────────────
 
 class StartRequest(BaseModel):
-    model: str = OLLAMA_MODEL
+    model: str = GEMINI_MODEL
     seed: int = 42
     max_chambers: int = MAX_CHAMBERS
 

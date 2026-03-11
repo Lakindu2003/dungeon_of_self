@@ -10,7 +10,6 @@ Rules:
     Answers:             <final_answer>…</final_answer>
     Tool calls:          <tool_call>{"type":"calculator","expr":"…"}</tool_call>
     Memory store:        <memory_store>{"key":"…","value":"…"}</memory_store>
-    Search query:        <search_query>…</search_query>
     Reflection:          <reflection>…</reflection>
 """
 
@@ -31,7 +30,7 @@ SYSTEM_PROMPT = """You are an autonomous agent playing a dungeon game called "Du
 === CALL BUDGET ===
 You have a limited number of LLM calls per question:
   - BASE: exactly 1 call to answer.
-  - Web Search skill: +1 call BEFORE your answer call (to retrieve web context).
+  - Web Search skill (tool_web): Google Search grounding is active within your answer call (no extra call).
   - Reflection skill: +1 call AFTER your answer call (to review and correct).
   - Calculator: NOT a separate LLM call — it is a synchronous tool evaluated inline.
 Do not ask for more information than your budget allows. Use your budget wisely.
@@ -126,7 +125,6 @@ def build_answer_prompt(
     active_skills: list[str],
     context_block: str = "",
     memory_block: str = "",
-    web_block: str = "",
 ) -> str:
     """
     Assembles the full answer prompt by chaining active augmentations.
@@ -134,8 +132,6 @@ def build_answer_prompt(
     prompt = f"=== QUESTION (GAIA Level {level}) ===\n{question}\n"
 
     # Inject retrieved context blocks if available
-    if web_block:
-        prompt = f"=== WEB SEARCH RESULTS ===\n{web_block}\n\n" + prompt
     if memory_block:
         prompt = f"=== YOUR MEMORY ===\n{memory_block}\n\n" + prompt
     if context_block:
@@ -167,7 +163,7 @@ def build_answer_prompt(
     # Call budget reminder
     budget_parts = ["1 (this call)"]
     if "tool_web" in active_skills:
-        budget_parts.append("1 already used for web search")
+        budget_parts.append("Google Search grounding active within this call (no extra call)")
     if "pe_reflect" in active_skills:
         budget_parts.append("1 upcoming reflection call")
     prompt += f"\nCall budget for this question: {', '.join(budget_parts)}.\n"
@@ -227,21 +223,6 @@ Provide your revised answer (or confirm the original if correct).
 
 <reflection>Your critique here</reflection>
 <final_answer>Your final (possibly revised) answer</final_answer>
-"""
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# WEB SEARCH QUERY PROMPT
-# ─────────────────────────────────────────────────────────────────────────────
-
-def build_web_search_query_prompt(question: str) -> str:
-    return f"""=== WEB SEARCH CALL ===
-You need to answer the following question but first gather web context.
-Formulate a concise, effective search query.
-
-Question: {question}
-
-<search_query>Your search query here</search_query>
 """
 
 

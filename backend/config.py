@@ -50,12 +50,6 @@ DOORS_PER_CHAMBER: int = 4
 CONTEXT_HISTORY_SIZE: int = 5          # messages kept for ctx_enough
 CONTEXT_SUMMARISE_EVERY: int = 10      # exchanges before Gemini summarises
 
-# ── LLM providers ─────────────────────────────────────────────────────────────
-OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL: str    = os.getenv("OLLAMA_MODEL", "llama3")
-
-GEMINI_API_KEY: str  = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL: str    = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
-
-TAVILY_API_KEY: str  = os.getenv("TAVILY_API_KEY", "")
-TAVILY_MAX_RESULTS: int = 3   # number of web pages fetched
+# ── LLM provider (Gemini only) ────────────────────────────────────────────────
+GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
+GEMINI_MODEL: str   = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
