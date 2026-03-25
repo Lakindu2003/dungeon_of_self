@@ -13,7 +13,12 @@ import json
 import queue
 import threading
 import uuid
+import sys
 from pathlib import Path
+
+# Important: Allow `python backend/main.py` execution by adding the project root to sys.path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from typing import AsyncGenerator
 
 from fastapi import FastAPI, HTTPException
@@ -116,3 +121,18 @@ def get_log_info(run_id: str):
     if not matches:
         raise HTTPException(status_code=404, detail="Log folder not found yet.")
     return {"log_folder": str(matches[0])}
+
+if __name__ == "__main__":
+    import uvicorn
+    import webbrowser
+    import time
+    
+    def _open_browser():
+        time.sleep(1.2)
+        webbrowser.open("http://localhost:8000")
+        
+    threading.Thread(target=_open_browser, daemon=True).start()
+    
+    # We use import string here to allow reload to work correctly.
+    # Note: run from the project root using `python backend/main.py`
+    uvicorn.run("backend.main:app", host="0.0.0.0", port=8000, reload=True)

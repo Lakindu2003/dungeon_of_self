@@ -1,5 +1,5 @@
 """
-gemini_client.py — Single LLM client for the entire project (Gemini 2.0 Flash).
+gemini_client.py — Single LLM client for the entire project (Gemini 3.0 Flash).
 
 All strategy decisions, answer generation, reflection, and context summarisation
 go through call().  Web search is Gemini's native Google Search grounding tool:
@@ -32,7 +32,7 @@ def call(
     system: str | None = None,
 ) -> str:
     """
-    Send a generation request to Gemini 2.0 Flash.
+    Send a generation request to Gemini 3.0 Flash.
 
     use_web_search=True attaches Gemini's built-in Google Search grounding tool.
     This must only be True when the agent has the tool_web skill active —

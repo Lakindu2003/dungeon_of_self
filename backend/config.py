@@ -20,7 +20,7 @@ XP_PER_LEVEL: dict[int, int] = {1: 1, 2: 2, 3: 3}
 
 # Incremental XP needed to earn the NEXT skill-point.
 # e.g. first SP at cumulative 1 XP, second SP at cumulative 1+2=3 XP, etc.
-SKILL_POINT_XP_THRESHOLDS: list[int] = [1, 2, 4, 8, 16]
+SKILL_POINT_XP_THRESHOLDS: list[int] = [1, 2, 4, 6, 8, 10]
 
 # ── Skill costs (in Skill Points) ─────────────────────────────────────────────
 SKILL_COSTS: dict[str, int] = {
@@ -52,4 +52,4 @@ CONTEXT_SUMMARISE_EVERY: int = 10      # exchanges before Gemini summarises
 
 # ── LLM provider (Gemini only) ────────────────────────────────────────────────
 GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL: str   = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MODEL: str   = os.getenv("GEMINI_MODEL", "gemini-3-flash-preview")

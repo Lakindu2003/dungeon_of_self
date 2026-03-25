@@ -9,7 +9,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
-DATA_PATH = Path(__file__).parent.parent / "data" / "gaia_dummy.csv"
+DATA_PATH = Path(__file__).parent.parent / "data" / "gaia_validation_annotated.csv"
 
 
 @dataclass

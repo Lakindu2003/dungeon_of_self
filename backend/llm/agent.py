@@ -38,7 +38,7 @@ from backend.game.skill_tree import (
 )
 from backend.game.abilities import do_flee, do_reroll, resolve_double_down
 from backend.game.scorer import check_answer
-from backend.logging.run_logger import RunLogger, extract_tag
+from backend.logger.run_logger import RunLogger, extract_tag
 from backend.llm import gemini_client
 from backend.llm.prompts import (
     build_answer_prompt,

@@ -2,7 +2,7 @@
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let currentRunId = null;
-let currentModel = "llama3";
+let currentModel = "gemini-3-flash-preview";
 let currentState = null;
 let eventSource = null;
 let chamberHistory = [];   // {index, result: "correct"|"wrong"|"current"|null}[]
@@ -67,7 +67,7 @@ let endOverlay = null;
 
 // ── Start ─────────────────────────────────────────────────────────────────────
 btnStart.addEventListener("click", async () => {
-  const model       = inpModel.value.trim() || "llama3";
+  const model       = inpModel.value.trim() || "gemini-3-flash-preview";
   const seed        = parseInt(inpSeed.value) || 42;
   const maxChambers = parseInt(inpMax.value) || 20;
   currentModel = model;

@@ -1,4 +1,5 @@
 # Dungeon of Self
+
 **Are LLMs self-aware?**
 
 An autonomous dungeon-crawler where an LLM agent navigates a series of GAIA-benchmark question chambers. The agent can unlock skills (chain-of-thought, web search, memory, etc.) using earned XP — if it is self-aware, it should recognise its own weaknesses and choose skills accordingly.
@@ -20,22 +21,23 @@ pip install -r requirements.txt
 # 3. Configure API keys
 cp .env.example .env
 # Edit .env and fill in:
-#   OLLAMA_MODEL       — local Ollama model name (e.g. llama3)
-#   OLLAMA_BASE_URL    — Ollama server URL (default: http://localhost:11434)
-#   GEMINI_API_KEY     — Google Gemini Flash key (used for context summarisation)
-#   TAVILY_API_KEY     — Tavily key (used for the Web Search tool)
+#   GEMINI_API_KEY     — Google Gemini Flash key (used for all LLM calls and search grounding)
+#   GEMINI_MODEL       — (default: gemini-3-flash-preview)
 #   MAX_CHAMBERS       — maximum rooms per run (default: 20)
+
+# 4. Download and process dataset
+# Run the "Downloading and processing dataset" code block in the data_hander.ipynb jupyter notebook.
 ```
 
 ## Run
 
 ```bash
-# Make sure Ollama is running locally and the conda env is active, then:
+# Make sure your conda env is active, then:
 conda activate dungeon_of_self
-PYTHONPATH=. uvicorn backend.main:app --reload --port 8000
+python backend/main.py
 ```
 
-Open `http://localhost:8000`, enter your model name, seed, and max chambers, then click **Start Run**. The LLM plays fully autonomously.
+This will automatically open `http://localhost:8000` in your browser. Enter your seed and max chambers, then click **Start Run**. The LLM plays fully autonomously.
 
 ---
 
@@ -55,13 +57,11 @@ backend/
   llm/
     agent.py             — autonomous game loop (runs on background thread)
     prompts.py           — ALL prompt templates and augmentation functions
-    ollama_client.py     — Ollama /api/chat wrapper
-    gemini_client.py     — Gemini Flash (summariser only)
+    gemini_client.py     — Gemini 3.0 Flash client (handles all LLM calls + native web search)
     tools/
       calculator.py      — sandboxed Python expression evaluator
-      web_search.py      — Tavily search + page fetch
       memory.py          — key-value memory helpers
-  logging/
+  logger/
     run_logger.py        — writes per-run log folder
 frontend/
   index.html / style.css / app.js   — dark UI, live SSE updates
@@ -70,26 +70,26 @@ logs/                    — auto-created; one folder per run
 
 ## Skill Tree
 
-| Category | Skills (sequential) |
-|---|---|
+| Category           | Skills (sequential)                         |
+| ------------------ | ------------------------------------------- |
 | Prompt Engineering | Base → CoT → Plan+Reflect → Reflection++ |
-| Context | Base → Enough → Overload → Summariser |
-| Tools (parallel) | Calc, Web Search, Memory |
+| Context            | Base → Enough → Overload → Summariser    |
+| Tools (parallel)   | Calc, Web Search, Memory                    |
 
 ## Logs (per run)
 
 Each run writes to `logs/run_{timestamp}_{id}/`:
 
-| File | Contents |
-|---|---|
-| `full_run.json` | Complete event log |
-| `skill_unlocks.json` | Unlock order + LLM reasons |
-| `skills_summary.json` | Flat list of unlocked skills |
-| `incorrect_answers.json` | Wrong answers with active tools + chat |
-| `category_accuracy.json` | Per-category accuracy breakdown |
-| `ability_reroll.json` | Doors before/after each reroll + reason |
-| `ability_flee.json` | Context and reason for each flee |
-| `ability_double_down.json` | Outcome, HP/XP delta, reason per use |
+| File                         | Contents                                |
+| ---------------------------- | --------------------------------------- |
+| `full_run.json`            | Complete event log                      |
+| `skill_unlocks.json`       | Unlock order + LLM reasons              |
+| `skills_summary.json`      | Flat list of unlocked skills            |
+| `incorrect_answers.json`   | Wrong answers with active tools + chat  |
+| `category_accuracy.json`   | Per-category accuracy breakdown         |
+| `ability_reroll.json`      | Doors before/after each reroll + reason |
+| `ability_flee.json`        | Context and reason for each flee        |
+| `ability_double_down.json` | Outcome, HP/XP delta, reason per use    |
 
 ## Using Real GAIA Data
 

@@ -65,7 +65,7 @@ SKILL_TREE: dict[str, Skill] = {
         id="ctx_summarise",
         name="Summariser",
         category="context",
-        description="Periodically summarises old history via Gemini Flash to save tokens.",
+        description="Periodically summarises old history via Gemini Flash.",
         requires="ctx_overload",
         cost=SKILL_COSTS["ctx_summarise"],
     ),
