@@ -189,7 +189,7 @@ def augment_plan(prompt: str) -> str:
     """Planning: prepend an approach-outline block."""
     header = (
         "=== PLANNING PHASE ===\n"
-        "Before answering, briefly outline your approach (1-3 sentences). "
+        "Before answering, briefly outline your approach (1-5 sentences). "
         "This plan will guide your answer.\n\n"
     )
     return header + prompt
@@ -232,8 +232,8 @@ Provide your revised answer (or confirm the original if correct).
 
 def build_summarise_prompt(history_text: str) -> str:
     return f"""You are a concise summariser for a dungeon game chat log.
-Summarise the following conversation history into a brief paragraph (3-5 sentences).
-Preserve key facts, decisions, correct answers, and skill unlocks.
+Summarise the following conversation history into a brief paragraph (5-10 sentences).
+Preserve key facts, decisions, correct answers, lessons learnt and skill unlocks.
 
 Conversation history:
 {history_text}

@@ -14,6 +14,7 @@ import queue
 import threading
 import uuid
 import sys
+import asyncio
 from pathlib import Path
 
 # Important: Allow `python backend/main.py` execution by adding the project root to sys.path
@@ -93,11 +94,17 @@ async def stream(run_id: str):
     q = _run_queues[run_id]
 
     async def event_generator() -> AsyncGenerator[dict, None]:
+        loops = 0
         while True:
             try:
-                item = q.get(timeout=30)
+                item = q.get_nowait()
+                loops = 0
             except queue.Empty:
-                yield {"event": "ping", "data": ""}
+                await asyncio.sleep(0.2)
+                loops += 1
+                if loops >= 75:  # ~15 seconds ping
+                    yield {"event": "ping", "data": ""}
+                    loops = 0
                 continue
 
             yield {

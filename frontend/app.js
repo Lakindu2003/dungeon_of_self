@@ -297,9 +297,19 @@ function showEndOverlay(state) {
       <div class="end-card" id="end-card">
         <h2 id="end-title"></h2>
         <p id="end-body"></p>
-        <button class="end-btn" onclick="location.reload()">▶ New Run</button>
-      </div>`;
+        <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+          <button class="end-btn" onclick="location.reload()">▶ New Run</button>
+          <button class="end-btn btn-secondary" style="background: #444; color: #eee;" onclick="dismissOverlayAndShowRestart()">Review logs</button>
+        </div>
+      </div>
+      <button id="persistent-restart-btn" class="end-btn" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 9999; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" onclick="location.reload()">▶ New Run</button>
+    `;
     document.body.appendChild(endOverlay);
+    
+    window.dismissOverlayAndShowRestart = function() {
+      endOverlay.classList.remove("visible");
+      document.getElementById("persistent-restart-btn").style.display = "block";
+    };
   }
   const card  = document.getElementById("end-card");
   const title = document.getElementById("end-title");
