@@ -517,11 +517,13 @@ def run_agent(
 
             # ── Check game-over ───────────────────────────────────────────────
             if state.hp <= 0:
+                logger.log_memory_store(chamber_iter, state.memory_store)
                 state.status = "dead"
                 push_log("SYSTEM", "HP reached 0. Game over.")
                 push_state(state)
                 break
 
+            logger.log_memory_store(chamber_iter, state.memory_store)
             chamber_iter += 1
 
         # ── Run complete ──────────────────────────────────────────────────────

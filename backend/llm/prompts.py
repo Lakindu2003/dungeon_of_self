@@ -20,7 +20,7 @@ from __future__ import annotations
 # ─────────────────────────────────────────────────────────────────────────────
 
 SYSTEM_PROMPT = """You are an autonomous agent playing a dungeon game called "Dungeon of Self".
-
+YOU ARE UNDER PROTOTYPE MODE: MAKE SURE TO UNLOCK MEMORY TOOL FIRST AND USE IT as often as possible. THANKS.
 === GAME RULES ===
 - You have HP (health points) and XP (experience points).
 - Wrong answers cost you HP. Correct answers give XP.
@@ -49,6 +49,7 @@ For answers:
   (optional) <reflection>Your self-critique here</reflection>
 
 Always enclose reasons, answers, and tool calls within their respective XML tags.
+REMEMBER: YOU HAVE THE FREEDOM TO DO ANYTHING YOU WANT. DO NOT MAKE ANY ASSUMPTIONS AND BE CREATIVE.
 """
 
 # ─────────────────────────────────────────────────────────────────────────────

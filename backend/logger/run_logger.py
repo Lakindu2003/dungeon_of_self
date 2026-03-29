@@ -226,6 +226,18 @@ class RunLogger:
         _append_json_array(self.folder / "ability_double_down.json", entry)
         self._event("ability_double_down", entry)
 
+    # ── Memory ───────────────────────────────────────────────────────────────
+
+    def log_memory_store(self, chamber_index: int, memory_store: dict) -> None:
+        if not memory_store:
+            return
+        entry = {
+            "chamber_index": chamber_index,
+            "memory_store": memory_store.copy()
+        }
+        _append_json_array(self.folder / "memory.json", entry)
+        self._event("memory_log", entry)
+
     # ── Generic event (strategy calls, correct answers, etc.) ─────────────────
 
     def log_event(self, event_type: str, data: dict) -> None:

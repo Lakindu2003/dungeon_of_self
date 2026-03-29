@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill is the most effective way to improve reasoning accuracy for all future questions, which is a high-priority investment for long-term survival and progression.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (CoT) skill is the most effective way to improve reasoning accuracy for all future questions, which is a high-priority investment for long-term survival and progression.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking the Plan+Reflect skill is a priority to improve accuracy through structured reasoning and to gain the Reflection call for error correction.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking the Plan+Reflect skill is a priority to improve accuracy through structured reasoning and to gain the Reflection call for error correction.</reason>",
+    "chat_history_snippet": []
+  }
+]

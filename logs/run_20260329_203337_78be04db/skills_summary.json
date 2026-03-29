@@ -1,0 +1,8 @@
+[
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 1,
+    "reason": "Per the developer's instructions to prioritize unlocking the memory tool first. Unlocking \"Enough\" (ctx_enough) allows for better context retention of previous questions and answers."
+  }
+]
