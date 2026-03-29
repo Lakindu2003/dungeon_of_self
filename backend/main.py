@@ -46,6 +46,10 @@ app.add_middleware(
 # In-memory registry: run_id -> queue
 _run_queues: dict[str, queue.Queue] = {}
 
+NO_TOOLS_MODE = "--no-tools" in sys.argv
+if NO_TOOLS_MODE:
+    print("WARNING: Running in NO_TOOLS mode. Base Gemini only.")
+
 # ── Serve frontend ────────────────────────────────────────────────────────────
 
 app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
@@ -79,6 +83,7 @@ def start_run(req: StartRequest):
             "seed": req.seed,
             "max_chambers": req.max_chambers,
             "event_queue": q,
+            "no_tools_mode": NO_TOOLS_MODE,
         },
         daemon=True,
     )

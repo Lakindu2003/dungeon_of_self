@@ -41,6 +41,7 @@ from backend.game.scorer import check_answer
 from backend.logger.run_logger import RunLogger, extract_tag
 from backend.llm import gemini_client
 from backend.llm.prompts import (
+    SYSTEM_PROMPT,
     build_answer_prompt,
     build_reflect_prompt,
     build_strategy_prompt,
@@ -170,6 +171,7 @@ def run_agent(
     seed: int,
     max_chambers: int,
     event_queue: queue.Queue,
+    no_tools_mode: bool = False,
 ) -> None:
     """
     Entry point for the background thread.
@@ -191,6 +193,10 @@ def run_agent(
 
     try:
         # ── Initialise ────────────────────────────────────────────────────────
+        active_system_prompt = SYSTEM_PROMPT
+        if no_tools_mode:
+            active_system_prompt += "\n\nNOTE: You are currently running in NO-TOOLS mode. Skill unlocks and tools are DISABLED. Rely solely on your base reasoning capabilities."
+
         logger = RunLogger(run_id)
         state = GameState(run_id=run_id, run_folder=logger.folder_path)
         state.max_chambers = max_chambers
@@ -230,6 +236,7 @@ def run_agent(
             strategy_raw = ""
 
             while door_chosen is None:
+                available_skills = [] if no_tools_mode else get_available_unlocks(state.active_skills, state.skill_points)
                 shop_opts = [
                     {
                         "id": s.id,
@@ -237,7 +244,7 @@ def run_agent(
                         "cost": s.cost,
                         "description": s.description,
                     }
-                    for s in get_available_unlocks(state.active_skills, state.skill_points)
+                    for s in available_skills
                 ]
                 doors_info = _doors_for_prompt(chamber)
                 strategy_prompt = build_strategy_prompt(
@@ -255,6 +262,7 @@ def run_agent(
                 push_log("SYSTEM", f"Prompting LLM for strategy (Chamber {chamber_iter + 1})")
                 strategy_raw = gemini_client.call(
                     messages=[{"role": "user", "content": strategy_prompt}],
+                    system=active_system_prompt,
                 )
                 push_log("LLM AGENT", strategy_raw)
                 logger.log_event("strategy_call", {
@@ -268,6 +276,10 @@ def run_agent(
 
                 # ── unlock_skill ──────────────────────────────────────────────
                 if action == "unlock_skill":
+                    if no_tools_mode:
+                        push_log("SYSTEM", "Skill unlock error: Skills and tools are disabled in this mode.")
+                        continue
+                    
                     skill_id = target.lower()
                     new_skills, new_sp, err = apply_unlock(
                         skill_id, state.active_skills, state.skill_points
@@ -378,6 +390,7 @@ def run_agent(
             push_log("SYSTEM", f"Prompting LLM for answer (1 call budget)")
             answer_raw = gemini_client.call(
                 messages=[{"role": "user", "content": answer_prompt}],
+                system=active_system_prompt,
                 use_web_search=use_web_search,
             )
             push_log("LLM AGENT", answer_raw)
@@ -409,6 +422,7 @@ def run_agent(
                 push_log("SYSTEM", "Reflection call invoked.")
                 reflect_raw = gemini_client.call(
                     messages=[{"role": "user", "content": reflect_prompt}],
+                    system=active_system_prompt,
                 )
                 push_log("LLM AGENT", reflect_raw, tag="reflection")
                 revised = extract_tag(reflect_raw, "final_answer")

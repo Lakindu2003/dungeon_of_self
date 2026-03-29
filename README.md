@@ -35,6 +35,9 @@ cp .env.example .env
 # Make sure your conda env is active, then:
 conda activate dungeon_of_self
 python backend/main.py
+
+# To run base Gemini with no skills/tools:
+python backend/main.py --no-tools
 ```
 
 This will automatically open `http://localhost:8000` in your browser. Enter your seed and max chambers, then click **Start Run**. The LLM plays fully autonomously.
