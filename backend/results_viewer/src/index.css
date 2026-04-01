@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-s-bg: #0f172a;
+  --color-s-surface: #1e293b;
+  --color-s-border: #334155;
+  --color-s-text: #f8fafc;
+  --color-s-text-muted: #94a3b8;
+  --color-s-accent: #3b82f6;
+  --color-s-accent-hover: #2563eb;
+  --color-s-danger: #ef4444;
+  --color-s-success: #22c55e;
+}
+
+body {
+  @apply bg-[var(--color-s-bg)] text-[var(--color-s-text)] font-sans antialiased;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+{
+  "Science & Mathematics": {
+    "correct": 2,
+    "wrong": 1,
+    "accuracy": 66.7
+  },
+  "Technology & Computer Science": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  },
+  "Language, Linguistics & Cryptography": {
+    "correct": 0,
+    "wrong": 1,
+    "accuracy": 0.0
+  },
+  "Other": {
+    "correct": 0,
+    "wrong": 1,
+    "accuracy": 0.0
+  },
+  "History & Politics": {
+    "correct": 0,
+    "wrong": 1,
+    "accuracy": 0.0
+  }
+}

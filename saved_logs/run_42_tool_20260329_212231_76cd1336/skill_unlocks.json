@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is a fundamental reasoning technique that significantly improves accuracy across all categories. Unlocking it now will ensure better performance on the upcoming questions and help me reach the next Skill Point threshold safely.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought (CoT) is a fundamental reasoning technique that significantly improves accuracy across all categories. Unlocking it now will ensure better performance on the upcoming questions and help me reach the next Skill Point threshold safely.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan is a priority as it grants both a planning block and a reflection call, significantly increasing accuracy and providing a safety net for difficult questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan is a priority as it grants both a planning block and a reflection call, significantly increasing accuracy and providing a safety net for difficult questions.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 60,
+    "chamber_index": 4,
+    "reason": "I have 1 Skill Point and pe_reflect is a high-priority skill. It provides a dedicated reflection call to review and correct my answer, which is vital for maintaining HP and ensuring XP gain on higher-level questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>I have 1 Skill Point and pe_reflect is a high-priority skill. It provides a dedicated reflection call to review and correct my answer, which is vital for maintaining HP and ensuring XP gain on higher-level questions.</reason>",
+    "chat_history_snippet": []
+  }
+]
