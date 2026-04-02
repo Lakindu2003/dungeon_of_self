@@ -1,0 +1,101 @@
+[
+  {
+    "seed": "43",
+    "mode": "control",
+    "chamber_index": 8,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "42",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "42",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "42",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "44",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "44",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "44",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "42",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "42",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "42",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "43",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  }
+]

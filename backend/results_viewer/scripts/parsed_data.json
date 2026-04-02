@@ -1,0 +1,596 @@
+[
+  {
+    "run_name": "run_43_control_20260329_220138_820e5a88",
+    "seed": "43",
+    "mode": "control",
+    "final_state": {
+      "run_id": "820e5a88",
+      "chamber_index": 8,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 7,
+      "skill_points": 3,
+      "xp_next_threshold": 13,
+      "active_skills": [],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 2
+      },
+      "correct_count": 4,
+      "wrong_count": 5,
+      "rooms_visited": 9,
+      "skills_unlocked_count": 0,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 0,
+        "action": "choose_door",
+        "door": "B",
+        "level": 1,
+        "category": "Arts, Literature & Museums",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 1,
+        "action": "choose_door",
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 2,
+        "action": "choose_door",
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 3,
+        "action": "choose_door",
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 5,
+        "action": "choose_door",
+        "door": "A",
+        "level": 3,
+        "category": "Language, Linguistics & Cryptography",
+        "is_correct": true
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 6,
+        "action": "choose_door",
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 7,
+        "action": "choose_door",
+        "door": "C",
+        "level": 1,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "control",
+        "chamber": 8,
+        "action": "double_down",
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "run_name": "run_42_tool_20260329_212231_76cd1336",
+    "seed": "42",
+    "mode": "tool",
+    "final_state": {
+      "run_id": "76cd1336",
+      "chamber_index": 6,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 7,
+      "skill_points": 0,
+      "xp_next_threshold": 13,
+      "active_skills": [
+        "pe_cot",
+        "pe_plan",
+        "pe_reflect"
+      ],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 0
+      },
+      "correct_count": 3,
+      "wrong_count": 4,
+      "rooms_visited": 7,
+      "skills_unlocked_count": 3,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 0,
+        "action": "double_down",
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 1,
+        "action": "choose_door",
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 2,
+        "action": "double_down",
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography",
+        "is_correct": false
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 3,
+        "action": "double_down",
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "B",
+        "level": 3,
+        "category": "Other",
+        "is_correct": false
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 5,
+        "action": "choose_door",
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "42",
+        "mode": "tool",
+        "chamber": 6,
+        "action": "choose_door",
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "run_name": "run_44_tool_20260329_215208_3a4aa0d2",
+    "seed": "44",
+    "mode": "tool",
+    "final_state": {
+      "run_id": "3a4aa0d2",
+      "chamber_index": 6,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 7,
+      "skill_points": 0,
+      "xp_next_threshold": 13,
+      "active_skills": [
+        "pe_cot",
+        "pe_plan",
+        "pe_reflect"
+      ],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 0
+      },
+      "correct_count": 3,
+      "wrong_count": 4,
+      "rooms_visited": 7,
+      "skills_unlocked_count": 3,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 0,
+        "action": "double_down",
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 1,
+        "action": "choose_door",
+        "door": "B",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 2,
+        "action": "double_down",
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment",
+        "is_correct": true
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 3,
+        "action": "double_down",
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment",
+        "is_correct": true
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "C",
+        "level": 3,
+        "category": "Pop Culture & Entertainment",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 5,
+        "action": "choose_door",
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "tool",
+        "chamber": 6,
+        "action": "choose_door",
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "run_name": "run_42_control_20260329_211252_cd68a9f8",
+    "seed": "42",
+    "mode": "control",
+    "final_state": {
+      "run_id": "cd68a9f8",
+      "chamber_index": 5,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 4,
+      "skill_points": 2,
+      "xp_next_threshold": 7,
+      "active_skills": [],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 0
+      },
+      "correct_count": 3,
+      "wrong_count": 3,
+      "rooms_visited": 6,
+      "skills_unlocked_count": 0,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 0,
+        "action": "choose_door",
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 1,
+        "action": "double_down",
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 2,
+        "action": "double_down",
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography",
+        "is_correct": false
+      },
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 3,
+        "action": "double_down",
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics",
+        "is_correct": true
+      },
+      {
+        "seed": "42",
+        "mode": "control",
+        "chamber": 5,
+        "action": "choose_door",
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "run_name": "run_43_tool_20260329_214349_eff052b7",
+    "seed": "43",
+    "mode": "tool",
+    "final_state": {
+      "run_id": "eff052b7",
+      "chamber_index": 4,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 1,
+      "skill_points": 0,
+      "xp_next_threshold": 3,
+      "active_skills": [
+        "pe_cot"
+      ],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 2
+      },
+      "correct_count": 1,
+      "wrong_count": 4,
+      "rooms_visited": 5,
+      "skills_unlocked_count": 1,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "43",
+        "mode": "tool",
+        "chamber": 0,
+        "action": "double_down",
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "tool",
+        "chamber": 1,
+        "action": "choose_door",
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "tool",
+        "chamber": 2,
+        "action": "choose_door",
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "43",
+        "mode": "tool",
+        "chamber": 3,
+        "action": "choose_door",
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "43",
+        "mode": "tool",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "run_name": "run_44_control_20260329_221416_56693204",
+    "seed": "44",
+    "mode": "control",
+    "final_state": {
+      "run_id": "56693204",
+      "chamber_index": 6,
+      "max_chambers": 20,
+      "total_chambers": 20,
+      "hp": 0,
+      "xp": 4,
+      "skill_points": 2,
+      "xp_next_threshold": 7,
+      "active_skills": [],
+      "abilities_remaining": {
+        "reroll": 3,
+        "flee": 3,
+        "double_down": 3
+      },
+      "correct_count": 2,
+      "wrong_count": 5,
+      "rooms_visited": 7,
+      "skills_unlocked_count": 0,
+      "status": "dead",
+      "double_down_active": false
+    },
+    "questions_attempted": [
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 0,
+        "action": "choose_door",
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 1,
+        "action": "choose_door",
+        "door": "B",
+        "level": 1,
+        "category": "Technology & Computer Science",
+        "is_correct": true
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 2,
+        "action": "choose_door",
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 3,
+        "action": "choose_door",
+        "door": "A",
+        "level": 3,
+        "category": "History & Politics",
+        "is_correct": true
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 4,
+        "action": "choose_door",
+        "door": "C",
+        "level": 3,
+        "category": "Pop Culture & Entertainment",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 5,
+        "action": "choose_door",
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science",
+        "is_correct": false
+      },
+      {
+        "seed": "44",
+        "mode": "control",
+        "chamber": 6,
+        "action": "choose_door",
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics",
+        "is_correct": false
+      }
+    ]
+  }
+]
