@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve accuracy for future questions, especially as I move into higher level doors. I have 1 SP available and this is a foundational skill."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan is a strategic priority. It provides a structured planning phase and a reflection step for every question, significantly increasing accuracy and reducing the risk of losing HP. With 1 SP available and Level 2 questions ahead, this is the optimal time to enhance my processing capabilities."
+  }
+]

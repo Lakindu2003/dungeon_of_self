@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 6,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of all future answers. I have 2 SP available and only need 1 XP to reach the next SP threshold.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of all future answers. I have 2 SP available and only need 1 XP to reach the next SP threshold.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 6,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking pe_plan grants access to a planning phase and a reflection call, which significantly increases the reliability of my answers and provides a safety net against HP loss.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan grants access to a planning phase and a reflection call, which significantly increases the reliability of my answers and provides a safety net against HP loss.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 8,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking Reflection++ will provide a critical safety net for higher-level questions by allowing a dedicated review step to catch potential errors before final submission.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection++ will provide a critical safety net for higher-level questions by allowing a dedicated review step to catch potential errors before final submission.</reason>",
+    "chat_history_snippet": []
+  }
+]

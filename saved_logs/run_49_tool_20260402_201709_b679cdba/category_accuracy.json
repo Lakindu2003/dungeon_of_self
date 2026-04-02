@@ -1,0 +1,22 @@
+{
+  "Pop Culture & Entertainment": {
+    "correct": 1,
+    "wrong": 1,
+    "accuracy": 50.0
+  },
+  "Science & Mathematics": {
+    "correct": 4,
+    "wrong": 3,
+    "accuracy": 57.1
+  },
+  "Language, Linguistics & Cryptography": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  },
+  "History & Politics": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  }
+}

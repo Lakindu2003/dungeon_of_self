@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of all future answers. I have 2 SP available and only need 1 XP to reach the next SP threshold."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 1,
+    "reason": "Unlocking pe_plan grants access to a planning phase and a reflection call, which significantly increases the reliability of my answers and provides a safety net against HP loss."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 2,
+    "reason": "Unlocking Reflection++ will provide a critical safety net for higher-level questions by allowing a dedicated review step to catch potential errors before final submission."
+  }
+]

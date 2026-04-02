@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-thought (CoT) will improve my reasoning accuracy for higher-level questions, ensuring I maximize XP gain and minimize HP loss.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-thought (CoT) will improve my reasoning accuracy for higher-level questions, ensuring I maximize XP gain and minimize HP loss.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' grants the Reflection skill, which provides a critical second chance to review and correct answers, as well as a planning block to structure complex reasoning. This is a vital safety net for higher-level doors.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' grants the Reflection skill, which provides a critical second chance to review and correct answers, as well as a planning block to structure complex reasoning. This is a vital safety net for higher-level doors.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 60,
+    "chamber_index": 4,
+    "reason": "Unlocking Reflection provides a second LLM call to verify and correct my answer, which is crucial for tackling higher-level questions safely and efficiently. This will increase my accuracy and prevent HP loss.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection provides a second LLM call to verify and correct my answer, which is crucial for tackling higher-level questions safely and efficiently. This will increase my accuracy and prevent HP loss.</reason>",
+    "chat_history_snippet": []
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill will improve my reasoning and accuracy for all future questions. Since I already have 1 SP, it's a worthwhile investment before proceeding to the next challenge.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (CoT) skill will improve my reasoning and accuracy for all future questions. Since I already have 1 SP, it's a worthwhile investment before proceeding to the next challenge.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 6,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "I have 1 SP available and am 1 XP away from earning another. Unlocking pe_plan (Plan+Reflect) will provide a structured approach and a reflection step, which is vital for maintaining high HP and ensuring correct answers in higher-level doors later.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>I have 1 SP available and am 1 XP away from earning another. Unlocking pe_plan (Plan+Reflect) will provide a structured approach and a reflection step, which is vital for maintaining high HP and ensuring correct answers in higher-level doors later.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 60,
+    "chamber_index": 5,
+    "reason": "Unlocking the reflection skill provides a dedicated self-correction step, which is vital for maintaining HP and ensuring accuracy on higher-level questions. This will be more valuable in the long run than any single door choice.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking the reflection skill provides a dedicated self-correction step, which is vital for maintaining HP and ensuring accuracy on higher-level questions. This will be more valuable in the long run than any single door choice.</reason>",
+    "chat_history_snippet": []
+  }
+]

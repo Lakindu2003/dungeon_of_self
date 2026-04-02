@@ -42,6 +42,14 @@ python backend/main.py --no-tools
 
 This will automatically open `http://localhost:8000` in your browser. Enter your seed and max chambers, then click **Start Run**. The LLM plays fully autonomously.
 
+### Headless Simulation
+
+You can also run games headlessly and in parallel from the command line:
+```bash
+# Run 5 tool-mode games concurrently starting from seed 42 with 20 chambers
+python backend/simulate_runs.py --mode tool --seed 42 --count 5 --chambers 20 --workers 5
+```
+
 ---
 
 ## Project Structure

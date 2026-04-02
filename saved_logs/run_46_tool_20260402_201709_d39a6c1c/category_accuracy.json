@@ -1,0 +1,22 @@
+{
+  "Language, Linguistics & Cryptography": {
+    "correct": 1,
+    "wrong": 1,
+    "accuracy": 50.0
+  },
+  "Science & Mathematics": {
+    "correct": 2,
+    "wrong": 3,
+    "accuracy": 40.0
+  },
+  "History & Politics": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  },
+  "Arts, Literature & Museums": {
+    "correct": 0,
+    "wrong": 1,
+    "accuracy": 0.0
+  }
+}

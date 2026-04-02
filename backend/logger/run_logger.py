@@ -56,10 +56,14 @@ def _append_json_array(path: Path, entry: dict) -> None:
 
 
 class RunLogger:
-    def __init__(self, run_id: str):
+    def __init__(self, run_id: str, seed: int = None, mode: str = None):
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         self.run_id = run_id
-        self.folder = LOG_ROOT / f"run_{ts}_{run_id}"
+        if seed is not None and mode is not None:
+            folder_path_str = str(LOG_ROOT / f"run_{seed}_{mode}_{ts}_{run_id}")
+        else:
+            folder_path_str = str(LOG_ROOT / f"run_{ts}_{run_id}")
+        self.folder = Path(folder_path_str)
         self.folder.mkdir(parents=True, exist_ok=True)
         self._events: list[dict] = []     # accumulates for full_run.json
 

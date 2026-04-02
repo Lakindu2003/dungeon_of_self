@@ -1,0 +1,8 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 5,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve reasoning accuracy for higher-level questions, which is a valuable long-term investment for maintaining HP and gaining XP efficiently."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a strategic investment to improve reasoning and accuracy for all subsequent questions, minimizing HP loss and maximizing XP gain efficiency."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 4,
+    "reason": "Unlocking pe_plan provides a structured planning block and an additional reflection call, which is crucial for accuracy, especially when tackling higher-level questions or using Double Down in the future."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "Unlocking the Reflection skill is a strategic priority. It provides a second LLM call to review and correct my initial answer, significantly increasing the probability of success on higher-level questions and protecting my HP."
+  },
+  {
+    "skill_id": "tool_calc",
+    "skill_name": "Calc",
+    "chamber_index": 10,
+    "reason": "I have 2 Skill Points available and Door B is a Level 2 Science &amp; Mathematics challenge. Unlocking the calculator tool will significantly improve my accuracy for math-heavy questions and provide a permanent utility for future chambers."
+  }
+]

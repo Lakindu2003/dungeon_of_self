@@ -197,7 +197,8 @@ def run_agent(
         if no_tools_mode:
             active_system_prompt += "\n\nNOTE: You are currently running in NO-TOOLS mode. Skill unlocks and tools are DISABLED. Rely solely on your base reasoning capabilities."
 
-        logger = RunLogger(run_id)
+        mode_str = "control" if no_tools_mode else "tool"
+        logger = RunLogger(run_id, seed=seed, mode=mode_str)
         state = GameState(run_id=run_id, run_folder=logger.folder_path)
         state.max_chambers = max_chambers
         state.hp = STARTING_HP

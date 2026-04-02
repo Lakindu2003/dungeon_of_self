@@ -1,0 +1,46 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a strategic investment to improve reasoning and accuracy for all subsequent questions, minimizing HP loss and maximizing XP gain efficiency.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) is a strategic investment to improve reasoning and accuracy for all subsequent questions, minimizing HP loss and maximizing XP gain efficiency.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 40,
+    "chamber_index": 4,
+    "reason": "Unlocking pe_plan provides a structured planning block and an additional reflection call, which is crucial for accuracy, especially when tackling higher-level questions or using Double Down in the future.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan provides a structured planning block and an additional reflection call, which is crucial for accuracy, especially when tackling higher-level questions or using Double Down in the future.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 9,
+    "hp_at_time": 40,
+    "chamber_index": 5,
+    "reason": "Unlocking the Reflection skill is a strategic priority. It provides a second LLM call to review and correct my initial answer, significantly increasing the probability of success on higher-level questions and protecting my HP.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking the Reflection skill is a strategic priority. It provides a second LLM call to review and correct my initial answer, significantly increasing the probability of success on higher-level questions and protecting my HP.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "tool_calc",
+    "skill_name": "Calc",
+    "sp_cost": 2,
+    "xp_at_time": 21,
+    "hp_at_time": 20,
+    "chamber_index": 10,
+    "reason": "I have 2 Skill Points available and Door B is a Level 2 Science &amp; Mathematics challenge. Unlocking the calculator tool will significantly improve my accuracy for math-heavy questions and provide a permanent utility for future chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>tool_calc</target>\n<reason>I have 2 Skill Points available and Door B is a Level 2 Science &amp; Mathematics challenge. Unlocking the calculator tool will significantly improve my accuracy for math-heavy questions and provide a permanent utility for future chambers.</reason>",
+    "chat_history_snippet": []
+  }
+]

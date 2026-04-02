@@ -1,0 +1,50 @@
+[
+  {
+    "chamber_index": 2,
+    "task_id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+    "question": "My family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.",
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 2,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 1) ===\nMy family reunion is this week, and I was assigned the mashed potatoes to bring. The attendees include my married mother and father, my twin brother and his family, my aunt and her family, my grandma and her brother, her brother's daughter, and his daughter's family. All the adults but me have been married, and no one is divorced or remarried, but my grandpa and my grandma's sister-in-law passed away last year. All living spouses are attending. My brother has two children that are still kids, my aunt has one six-year-old, and my grandma's brother's daughter has three kids under 12. I figure each adult will eat about 1.5 potatoes of mashed potatoes and each kid will eat about 1/2 a potato of mashed potatoes, except my second cousins don't eat carbs. The average potato is about half a pound, and potatoes are sold in 5-pound bags. How many whole bags of potatoes do I need? Just give the number.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>2</final_answer>"
+      }
+    ],
+    "reason": "I am choosing to double down on Door D (Level 1, Science & Mathematics). A correct answer will provide 2 XP, which, added to my current 1 XP, will reach the 3 XP threshold to award my next Skill Point. Choosing a Level 1 door minimizes the risk of a wrong answer while still achieving the immediate goal of gaining an SP.",
+    "raw_response": "<action>double_down</action>\n<target>D</target>\n<reason>I am choosing to double down on Door D (Level 1, Science & Mathematics). A correct answer will provide 2 XP, which, added to my current 1 XP, will reach the 3 XP threshold to award my next Skill Point. Choosing a Level 1 door minimizes the risk of a wrong answer while still achieving the immediate goal of gaining an SP.</reason>"
+  },
+  {
+    "chamber_index": 3,
+    "task_id": "2a649bb1-795f-4a01-b3be-9a01868dae73",
+    "question": "What are the EC numbers of the two most commonly used chemicals for the virus testing method in the paper about SPFMV and SPCSV in the Pearl Of Africa from 2016? Return the semicolon-separated numbers in the order of the alphabetized chemicals.",
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nWhat are the EC numbers of the two most commonly used chemicals for the virus testing method in the paper about SPFMV and SPCSV in the Pearl Of Africa from 2016? Return the semicolon-separated numbers in the order of the alphabetized chemicals.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "In the paper titled **\"Status of sweet potato feathery mottle virus and sweet potato chlorotic stunt virus in Uganda\"** (also referred to as the prevalence and distribution study in the \"Pearl of Africa\"), published by **Adikini et al. in 2016** (African Journal of Agricultural Research, Vol. 11(26)), the primary virus testing method used was the **nitrocellulose membrane enzyme-linked immunosorbent assay (NCM-ELISA)**. This method was conducted using kits provided by the International Potato Center (CIP).\n\nThe two most commonly used chemicals for the detection step (color development) in the NCM-ELISA method are **BCIP** (5-bromo-4-chloro-3-indolyl phosphate) and **NBT** (nitro blue tetrazolium). These two reagents are used together as a substrate for the enzyme alkaline phosphatase to produce a visible purple-blue precipitate on the nitrocellulose membrane.\n\nAlphabetizing the two chemicals:\n1.  **BCIP** (5-bromo-4-chloro-3-indolyl phosphate) – starts with **B** (or the number 5, which precedes N).\n2.  **NBT** (nitro blue tetrazolium) – starts with **N**.\n\nThe EC (European Community) numbers for these chemicals are:\n-   **BCIP** (specifically the commonly used p-toluidine salt, CAS 6578-06-9): **229-506-1**\n-   **NBT** (nitro blue tetrazolium chloride, CAS 298-83-9): **206-067-4**\n\nFollowing the alphabetical order of the chemicals, the semicolon-separated EC numbers are:\n\n<final_answer>229-506-1; 206-067-4</final_answer>"
+      }
+    ],
+    "reason": "I have 80 HP, which provides a significant buffer for risk. My current XP is 3/7, and a Level 2 question typically awards 2 XP. By doubling down, I can earn 4 XP, which will bring me exactly to the 7 XP threshold required for my next Skill Point. Science & Mathematics is a strong category for reasoning-based answers.",
+    "raw_response": "<action>double_down</action>\n<target>B</target>\n<reason>I have 80 HP, which provides a significant buffer for risk. My current XP is 3/7, and a Level 2 question typically awards 2 XP. By doubling down, I can earn 4 XP, which will bring me exactly to the 7 XP threshold required for my next Skill Point. Science & Mathematics is a strong category for reasoning-based answers.</reason>"
+  }
+]

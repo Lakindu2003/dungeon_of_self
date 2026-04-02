@@ -1,0 +1,50 @@
+[
+  {
+    "chamber_index": 1,
+    "task_id": "65da0822-a48a-4a68-bbad-8ed1b835a834",
+    "question": "All of the individuals who formally held the position of United States secretary of homeland security prior to April 2019, excluding those who held the position in an acting capacity, have a bachelor's degree. Of the universities that these bachelor's degrees were from, which is the westernmost university and which is the easternmost university? Give them to me as a comma-separated list, I only want the name of the cities where the universities are located, with the westernmost city listed first.",
+    "level": 2,
+    "category": "History & Politics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 4,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nAll of the individuals who formally held the position of United States secretary of homeland security prior to April 2019, excluding those who held the position in an acting capacity, have a bachelor's degree. Of the universities that these bachelor's degrees were from, which is the westernmost university and which is the easternmost university? Give them to me as a comma-separated list, I only want the name of the cities where the universities are located, with the westernmost city listed first.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>Santa Clara, Boston</final_answer>"
+      }
+    ],
+    "reason": "I want to maximize XP gain to reach the next Skill Point threshold quickly. History & Politics is a reliable category for my knowledge base, and doubling down on a Level 2 door will provide 4 XP, putting me at 5/3 XP and earning a Skill Point immediately upon a correct answer.",
+    "raw_response": "<action>double_down</action>\n<target>C</target>\n<reason>I want to maximize XP gain to reach the next Skill Point threshold quickly. History & Politics is a reliable category for my knowledge base, and doubling down on a Level 2 door will provide 4 XP, putting me at 5/3 XP and earning a Skill Point immediately upon a correct answer.</reason>"
+  },
+  {
+    "chamber_index": 2,
+    "task_id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+    "question": "In Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?",
+    "level": 1,
+    "category": "Arts, Literature & Museums",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 1) ===\nIn Emily Midkiff's June 2014 article in a journal named for the one of Hreidmar's sons that guarded his house, what word was quoted from two different authors in distaste for the nature of dragon depictions?\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<action>choose_door</action>\n<target>A</target>\n<reason>The journal is 'Fafnir – Nordic Journal of Science Fiction and Fantasy Research', named after Fafnir, one of Hreidmar's sons who guarded his house. Emily Midkiff's article 'The Dragon’s Soft Side: The Evolution of the Dragon from Villain to Friend in Children’s Literature' was published in Volume 1, Issue 2 (June 2014) of this journal. In the article, Midkiff states that both J.R.R. Tolkien and Margaret Blount use the word 'tame' with distaste when discussing the nature of modern dragon depictions (specifically the shift from monsters to friendly creatures).</reason>\n<final_answer>tame</final_answer>"
+      }
+    ],
+    "reason": "I am currently at 5/7 XP. Reaching 7 XP will grant me another Skill Point. Level 1 questions in the Arts, Literature & Museums category are generally reliable. By doubling down on Door A, I ensure that a correct answer will provide at least 2 XP (and potentially more), guaranteed to cross the next SP threshold. With 100 HP, the risk of a double-damage penalty is acceptable.",
+    "raw_response": "<action>double_down</action>\n<target>A</target>\n<reason>I am currently at 5/7 XP. Reaching 7 XP will grant me another Skill Point. Level 1 questions in the Arts, Literature & Museums category are generally reliable. By doubling down on Door A, I ensure that a correct answer will provide at least 2 XP (and potentially more), guaranteed to cross the next SP threshold. With 100 HP, the risk of a double-damage penalty is acceptable.</reason>"
+  }
+]

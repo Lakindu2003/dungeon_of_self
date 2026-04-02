@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill is a strategic priority. It improves reasoning accuracy for complex questions, which is essential for tackling higher-level doors like the Level 3 Science &amp; Mathematics door I intend to target next."
+  },
+  {
+    "skill_id": "tool_calc",
+    "skill_name": "Calc",
+    "chamber_index": 4,
+    "reason": "I have 2 Skill Points. Unlocking tool_calc (2 SP) will provide a Python calculator, which is highly beneficial for Science and Mathematics categories, increasing accuracy and protecting my HP in higher-level chambers."
+  }
+]
