@@ -18,6 +18,24 @@
     "outcome": "correct"
   },
   {
+    "seed": "71",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "71",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
     "seed": "57",
     "mode": "tool",
     "chamber_index": 3,
@@ -45,6 +63,51 @@
     "outcome": "wrong"
   },
   {
+    "seed": "66",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "66",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "64",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "64",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "64",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
     "seed": "43",
     "mode": "control",
     "chamber_index": 8,
@@ -52,6 +115,114 @@
     "category": "Science & Mathematics",
     "active_skills_count": 0,
     "outcome": "wrong"
+  },
+  {
+    "seed": "101",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "101",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "101",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "113",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "113",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "76",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "117",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "117",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "117",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "79",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "79",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "79",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
   },
   {
     "seed": "49",
@@ -81,6 +252,123 @@
     "outcome": "correct"
   },
   {
+    "seed": "97",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "71",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "71",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "71",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "106",
+    "mode": "control",
+    "chamber_index": 0,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "106",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "106",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "78",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "78",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "88",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "88",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "111",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "111",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
     "seed": "42",
     "mode": "tool",
     "chamber_index": 0,
@@ -106,6 +394,60 @@
     "category": "Science & Mathematics",
     "active_skills_count": 2,
     "outcome": "correct"
+  },
+  {
+    "seed": "66",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "66",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "66",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "75",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "75",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "75",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 3,
+    "outcome": "wrong"
   },
   {
     "seed": "44",
@@ -135,6 +477,78 @@
     "outcome": "correct"
   },
   {
+    "seed": "53",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "53",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "53",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "67",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "100",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "History & Politics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "110",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "110",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "110",
+    "mode": "tool",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
     "seed": "42",
     "mode": "control",
     "chamber_index": 1,
@@ -157,6 +571,195 @@
     "mode": "control",
     "chamber_index": 3,
     "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "90",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "90",
+    "mode": "control",
+    "chamber_index": 8,
+    "level": 3,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "112",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "112",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "112",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "62",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "62",
+    "mode": "control",
+    "chamber_index": 8,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "62",
+    "mode": "control",
+    "chamber_index": 9,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "109",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "109",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "109",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "83",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "83",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "83",
+    "mode": "tool",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "104",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "97",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "75",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "75",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "103",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "103",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "103",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 3,
     "category": "Science & Mathematics",
     "active_skills_count": 0,
     "outcome": "wrong"
@@ -180,6 +783,123 @@
     "outcome": "correct"
   },
   {
+    "seed": "63",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "63",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "63",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "62",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "62",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "62",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "93",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "93",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "93",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "105",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "105",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "87",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "87",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
     "seed": "58",
     "mode": "tool",
     "chamber_index": 2,
@@ -216,6 +936,51 @@
     "outcome": "wrong"
   },
   {
+    "seed": "89",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "89",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "89",
+    "mode": "control",
+    "chamber_index": 8,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "117",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "117",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
     "seed": "45",
     "mode": "control",
     "chamber_index": 2,
@@ -234,6 +999,195 @@
     "outcome": "correct"
   },
   {
+    "seed": "73",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "73",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "73",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "103",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "103",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "103",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "102",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "102",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "History & Politics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "102",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "92",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "92",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "74",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "74",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "74",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "77",
+    "mode": "control",
+    "chamber_index": 0,
+    "level": 3,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "77",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "64",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "64",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "64",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "108",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "108",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
     "seed": "54",
     "mode": "control",
     "chamber_index": 6,
@@ -241,6 +1195,15 @@
     "category": "Science & Mathematics",
     "active_skills_count": 0,
     "outcome": "correct"
+  },
+  {
+    "seed": "99",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "wrong"
   },
   {
     "seed": "50",
@@ -261,12 +1224,66 @@
     "outcome": "wrong"
   },
   {
+    "seed": "94",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "94",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "94",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "63",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "63",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
     "seed": "56",
     "mode": "tool",
     "chamber_index": 3,
     "level": 2,
     "category": "Science & Mathematics",
     "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "54",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 1,
     "outcome": "wrong"
   },
   {
@@ -297,31 +1314,103 @@
     "outcome": "wrong"
   },
   {
-    "seed": "53",
+    "seed": "104",
     "mode": "tool",
     "chamber_index": 0,
-    "level": 2,
+    "level": 1,
     "category": "Science & Mathematics",
     "active_skills_count": 0,
     "outcome": "correct"
   },
   {
-    "seed": "53",
+    "seed": "104",
     "mode": "tool",
-    "chamber_index": 1,
+    "chamber_index": 3,
     "level": 3,
-    "category": "History & Politics",
-    "active_skills_count": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
     "outcome": "correct"
   },
   {
-    "seed": "53",
+    "seed": "104",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 4,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "60",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "60",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "81",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "81",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "107",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "107",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "106",
     "mode": "tool",
     "chamber_index": 2,
     "level": 2,
-    "category": "Pop Culture & Entertainment",
-    "active_skills_count": 3,
-    "outcome": "correct"
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "106",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
   },
   {
     "seed": "48",
@@ -348,6 +1437,51 @@
     "level": 1,
     "category": "Science & Mathematics",
     "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "65",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "65",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "65",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "69",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "69",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
     "outcome": "wrong"
   },
   {
@@ -378,6 +1512,87 @@
     "outcome": "wrong"
   },
   {
+    "seed": "65",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "65",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "82",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "82",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "92",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "92",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "92",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "79",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "77",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
     "seed": "45",
     "mode": "tool",
     "chamber_index": 2,
@@ -405,7 +1620,313 @@
     "outcome": "wrong"
   },
   {
+    "seed": "98",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "98",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "98",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "History & Politics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "93",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "96",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "96",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "96",
+    "mode": "control",
+    "chamber_index": 9,
+    "level": 3,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "80",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "80",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
     "seed": "59",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "82",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "61",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "115",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "115",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "111",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "111",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "111",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "113",
+    "mode": "control",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "118",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "72",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "60",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "60",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "60",
+    "mode": "tool",
+    "chamber_index": 7,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "99",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "99",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "99",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "73",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 1,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "73",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "73",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "119",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "112",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "112",
+    "mode": "control",
+    "chamber_index": 9,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "68",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "68",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "85",
     "mode": "control",
     "chamber_index": 5,
     "level": 2,
@@ -428,6 +1949,69 @@
     "chamber_index": 3,
     "level": 2,
     "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "116",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "116",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "115",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "115",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "115",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "95",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "95",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 1,
+    "category": "History & Politics",
     "active_skills_count": 0,
     "outcome": "wrong"
   },
@@ -456,6 +2040,78 @@
     "level": 3,
     "category": "Science & Mathematics",
     "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "94",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "94",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "102",
+    "mode": "control",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "102",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "102",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "110",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "110",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "110",
+    "mode": "control",
+    "chamber_index": 9,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
     "outcome": "wrong"
   },
   {
@@ -504,6 +2160,33 @@
     "outcome": "correct"
   },
   {
+    "seed": "119",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "119",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "119",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
     "seed": "51",
     "mode": "control",
     "chamber_index": 4,
@@ -511,6 +2194,69 @@
     "category": "Technology & Computer Science",
     "active_skills_count": 0,
     "outcome": "wrong"
+  },
+  {
+    "seed": "85",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "85",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "61",
+    "mode": "control",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "61",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "61",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "98",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "114",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "correct"
   },
   {
     "seed": "50",
@@ -540,6 +2286,87 @@
     "outcome": "wrong"
   },
   {
+    "seed": "89",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "89",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "89",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "95",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "95",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "95",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 4,
+    "outcome": "correct"
+  },
+  {
+    "seed": "78",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "78",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "78",
+    "mode": "tool",
+    "chamber_index": 7,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 4,
+    "outcome": "correct"
+  },
+  {
     "seed": "52",
     "mode": "control",
     "chamber_index": 2,
@@ -563,6 +2390,303 @@
     "chamber_index": 9,
     "level": 2,
     "category": "Language, Linguistics & Cryptography",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "70",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "70",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Arts, Literature & Museums",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "70",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "118",
+    "mode": "control",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "118",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "76",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "76",
+    "mode": "tool",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 3,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "109",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "116",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "116",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "116",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "90",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "91",
+    "mode": "tool",
+    "chamber_index": 0,
+    "level": 1,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "101",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "101",
+    "mode": "tool",
+    "chamber_index": 5,
+    "level": 3,
+    "category": "History & Politics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "101",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 4,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "86",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 1,
+    "category": "Pop Culture & Entertainment",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "96",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "91",
+    "mode": "control",
+    "chamber_index": 6,
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "91",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "107",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "correct"
+  },
+  {
+    "seed": "107",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "107",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 4,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "114",
+    "mode": "tool",
+    "chamber_index": 2,
+    "level": 2,
+    "category": "Technology & Computer Science",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "114",
+    "mode": "tool",
+    "chamber_index": 3,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "114",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "80",
+    "mode": "tool",
+    "chamber_index": 1,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 1,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "80",
+    "mode": "tool",
+    "chamber_index": 4,
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills_count": 2,
+    "outcome": "correct"
+  },
+  {
+    "seed": "80",
+    "mode": "tool",
+    "chamber_index": 6,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 3,
+    "outcome": "correct"
+  },
+  {
+    "seed": "83",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "105",
+    "mode": "control",
+    "chamber_index": 5,
+    "level": 2,
+    "category": "History & Politics",
+    "active_skills_count": 0,
+    "outcome": "correct"
+  },
+  {
+    "seed": "105",
+    "mode": "control",
+    "chamber_index": 7,
+    "level": 3,
+    "category": "Science & Mathematics",
+    "active_skills_count": 0,
+    "outcome": "wrong"
+  },
+  {
+    "seed": "84",
+    "mode": "control",
+    "chamber_index": 4,
+    "level": 1,
+    "category": "Science & Mathematics",
     "active_skills_count": 0,
     "outcome": "wrong"
   }
