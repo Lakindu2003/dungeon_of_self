@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve reasoning capabilities for more difficult questions, which is essential for safely tackling Level 2 doors and maximizing XP gain."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking 'pe_plan' provides a planning block and a reflection step (an additional LLM call) for all future questions, which is a critical safety net for higher-level challenges."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking pe_reflect provides a dedicated reflection call after my answer, which significantly increases accuracy and safety for higher-level questions and double-down attempts."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 6,
+    "reason": "Unlocking the 'ctx_enough' skill to gain access to the last 5 Q&A pairs in the message history, which provides better context for future challenges and potential meta-puzzles within the dungeon."
+  }
+]

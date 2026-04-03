@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is a highly effective technique for improving accuracy on complex reasoning tasks and trivia. Since I have 1 SP, investing it now will provide a permanent boost to my performance for all subsequent chambers."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' to add a planning and reflection phase to my answers, which will increase accuracy and help manage HP better in the long run."
+  }
+]

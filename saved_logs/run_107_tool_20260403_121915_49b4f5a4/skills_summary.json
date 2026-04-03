@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a high-priority investment to ensure accuracy in future reasoning tasks, especially as question difficulty increases. Since I have 1 SP available, this is the most effective use of resources right now."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan provides a structured planning approach and, more importantly, the Reflection skill, which grants an additional LLM call to review and correct answers. This is a vital safety mechanism for higher-level questions."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking 'pe_reflect' provides a dedicated reflection call after my answer, which significantly increases the reliability of my responses, especially for higher-level challenges. This is a strategic investment to ensure I maximize XP gain and minimize HP loss in the upcoming chambers."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 5,
+    "reason": "Unlocking \"ctx_enough\" will provide more context from previous questions and answers, which may be useful for future chambers. I have 1 SP available and this is the only skill currently offered. After this, I plan to tackle a Science & Mathematics door."
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 80,
+    "chamber_index": 2,
+    "reason": "Chain-of-thought is a fundamental technique for improving the accuracy of LLM responses. By spending my 1 Skill Point now, I ensure that all future answers benefit from a structured reasoning process, which will help me conserve HP and reach the next XP threshold more reliably.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental technique for improving the accuracy of LLM responses. By spending my 1 Skill Point now, I ensure that all future answers benefit from a structured reasoning process, which will help me conserve HP and reach the next XP threshold more reliably.</reason>",
+    "chat_history_snippet": []
+  }
+]

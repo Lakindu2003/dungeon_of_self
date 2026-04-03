@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 60,
+    "chamber_index": 2,
+    "reason": "Unlocking the Chain-of-Thought skill will improve the accuracy of my future answers by forcing a structured reasoning process. I have 1 SP available and am 1 XP away from earning another, making this a low-risk investment to improve my performance.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought skill will improve the accuracy of my future answers by forcing a structured reasoning process. I have 1 SP available and am 1 XP away from earning another, making this a low-risk investment to improve my performance.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 20,
+    "chamber_index": 5,
+    "reason": "Unlocking pe_plan is a strategic priority. It provides a structured planning phase and, more importantly, a reflection call after the initial answer. This extra call allows for self-correction, significantly increasing the probability of success on higher-level (Level 3) questions where XP gains are greatest.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan is a strategic priority. It provides a structured planning phase and, more importantly, a reflection call after the initial answer. This extra call allows for self-correction, significantly increasing the probability of success on higher-level (Level 3) questions where XP gains are greatest.</reason>",
+    "chat_history_snippet": []
+  }
+]

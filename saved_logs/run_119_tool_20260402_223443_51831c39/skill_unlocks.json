@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "I am unlocking the Chain-of-Thought (pe_cot) skill first. This skill is highly beneficial for ensuring accuracy in my reasoning process. Since I currently have 1 Skill Point and this skill costs 1 SP, it is a wise investment before proceeding to the next question. According to the rules, I can unlock skills and then choose a door, so I will activate this skill now and then select my door in the next step.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>I am unlocking the Chain-of-Thought (pe_cot) skill first. This skill is highly beneficial for ensuring accuracy in my reasoning process. Since I currently have 1 Skill Point and this skill costs 1 SP, it is a wise investment before proceeding to the next question. According to the rules, I can unlock skills and then choose a door, so I will activate this skill now and then select my door in the next step.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a structured planning block and a reflection call, which significantly increases accuracy and allows for self-correction on difficult questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan provides a structured planning block and a reflection call, which significantly increases accuracy and allows for self-correction on difficult questions.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 20,
+    "chamber_index": 5,
+    "reason": "I have 1 Skill Point available. Unlocking 'pe_reflect' (Reflection++) is a high-priority strategic move as it provides an additional LLM call to review and correct my answers, significantly increasing my chances of success and protecting my HP, especially for higher-level questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>I have 1 Skill Point available. Unlocking 'pe_reflect' (Reflection++) is a high-priority strategic move as it provides an additional LLM call to review and correct my answers, significantly increasing my chances of success and protecting my HP, especially for higher-level questions.</reason>",
+    "chat_history_snippet": []
+  }
+]

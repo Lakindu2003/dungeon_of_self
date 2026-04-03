@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 80,
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a priority to ensure higher accuracy on complex questions, particularly in the Science &amp; Mathematics category.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) is a priority to ensure higher accuracy on complex questions, particularly in the Science &amp; Mathematics category.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 20,
+    "chamber_index": 6,
+    "reason": "Unlocking 'pe_plan' provides a structured planning and reflection phase, which is essential for maximizing accuracy and minimizing HP loss in higher-level chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' provides a structured planning and reflection phase, which is essential for maximizing accuracy and minimizing HP loss in higher-level chambers.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 20,
+    "chamber_index": 7,
+    "reason": "Unlocking Reflection++ will provide a dedicated second LLM call to review and correct my answer, which is a valuable safety net for high-stakes Level 3 questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection++ will provide a dedicated second LLM call to review and correct my answer, which is a valuable safety net for high-stakes Level 3 questions.</reason>",
+    "chat_history_snippet": []
+  }
+]

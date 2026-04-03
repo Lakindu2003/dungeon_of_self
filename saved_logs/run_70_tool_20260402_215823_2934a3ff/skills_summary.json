@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental reasoning enhancement that will improve my accuracy across all categories, especially for higher-level doors. I have 2 SP and this costs 1 SP."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 1,
+    "reason": "Unlocking the planning skill will provide a structured approach and a reflection step for all future questions, which is a significant strategic advantage for high-level challenges."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 2,
+    "reason": "Unlocking the Reflection skill provides a crucial safety net by allowing a second LLM call to review and correct the initial answer, which is especially valuable for higher-difficulty levels and double-down attempts."
+  }
+]

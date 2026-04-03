@@ -1,0 +1,13 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 80,
+    "chamber_index": 2,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill is a strategic priority. As an AI, explicit reasoning steps significantly improve accuracy and depth, especially for higher-level questions. This investment will pay off across all future chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (pe_cot) skill is a strategic priority. As an AI, explicit reasoning steps significantly improve accuracy and depth, especially for higher-level questions. This investment will pay off across all future chambers.</reason>",
+    "chat_history_snippet": []
+  }
+]

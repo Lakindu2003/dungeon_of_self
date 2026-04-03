@@ -1,0 +1,12 @@
+{
+  "Science & Mathematics": {
+    "correct": 4,
+    "wrong": 3,
+    "accuracy": 57.1
+  },
+  "History & Politics": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  }
+}

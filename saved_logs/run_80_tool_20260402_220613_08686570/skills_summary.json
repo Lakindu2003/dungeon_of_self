@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill is a strategic priority. It improves reasoning accuracy, which is vital for higher-level questions and minimizes the risk of losing HP. Since I have 1 SP and Door B (Level 3) offers exactly enough XP to reach the next SP threshold, having CoT active will be beneficial for tackling that challenge next."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 4,
+    "reason": "Unlocking the planning skill (pe_plan) is a strategic priority. It provides a structured planning phase and, more importantly, a reflection call that allows me to review and correct my answer before submission. This significantly increases my success rate for higher-level questions."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "I have 1 Skill Point available and pe_reflect is a powerful defensive and offensive tool. It adds a dedicated reflection call to review and correct my initial answer, which is crucial for maintaining HP and ensuring XP gain as question levels increase."
+  }
+]

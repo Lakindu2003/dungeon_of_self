@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-Thought (CoT) is the most effective way to ensure accuracy on higher-level questions, particularly in the Science & Mathematics and History categories. This will provide a significant boost to reasoning capabilities for the upcoming chambers."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 4,
+    "reason": "Unlocking pe_plan provides a structured planning phase and a reflection phase (extra call) which will significantly increase accuracy for higher-level challenges and help manage HP more effectively."
+  }
+]

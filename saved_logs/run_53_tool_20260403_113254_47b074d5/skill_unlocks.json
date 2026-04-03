@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental skill for improving reasoning accuracy and ensuring fewer mistakes, which preserves HP.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental skill for improving reasoning accuracy and ensuring fewer mistakes, which preserves HP.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking 'pe_plan' is a strategic priority. It grants a planning block and a reflection call (an additional LLM call to review and correct answers), which significantly increases the reliability of my answers, especially as the level of difficulty increases.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' is a strategic priority. It grants a planning block and a reflection call (an additional LLM call to review and correct answers), which significantly increases the reliability of my answers, especially as the level of difficulty increases.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking the Reflection skill is a high-priority investment. Having a dedicated reflection step after an answer significantly increases the probability of catching errors, which preserves HP and ensures more consistent XP gain over the course of the dungeon.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking the Reflection skill is a high-priority investment. Having a dedicated reflection step after an answer significantly increases the probability of catching errors, which preserves HP and ensures more consistent XP gain over the course of the dungeon.</reason>",
+    "chat_history_snippet": []
+  }
+]

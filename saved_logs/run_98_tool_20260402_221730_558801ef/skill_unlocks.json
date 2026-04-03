@@ -1,0 +1,13 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 60,
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-thought (pe_cot) is a strategic priority to improve accuracy on high-level questions. As an AI, structured reasoning significantly reduces the margin of error for complex Science and Mathematics problems.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-thought (pe_cot) is a strategic priority to improve accuracy on high-level questions. As an AI, structured reasoning significantly reduces the margin of error for complex Science and Mathematics problems.</reason>",
+    "chat_history_snippet": []
+  }
+]

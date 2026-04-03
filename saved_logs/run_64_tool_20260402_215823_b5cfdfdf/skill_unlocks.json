@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill is a priority to ensure higher accuracy in reasoning for all subsequent questions. Since I have 1 SP and am close to earning another, this is a safe and effective investment.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (pe_cot) skill is a priority to ensure higher accuracy in reasoning for all subsequent questions. Since I have 1 SP and am close to earning another, this is a safe and effective investment.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "I am spending my 1 Skill Point to unlock pe_plan. This skill allows for a planning block before answering, which will be crucial for tackling higher-level questions and ensuring accuracy as the difficulty increases.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>I am spending my 1 Skill Point to unlock pe_plan. This skill allows for a planning block before answering, which will be crucial for tackling higher-level questions and ensuring accuracy as the difficulty increases.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 10,
+    "hp_at_time": 80,
+    "chamber_index": 4,
+    "reason": "I am unlocking pe_reflect to gain a second LLM call for reflection and error correction. This will significantly increase my accuracy and help preserve HP in higher-level chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>I am unlocking pe_reflect to gain a second LLM call for reflection and error correction. This will significantly increase my accuracy and help preserve HP in higher-level chambers.</reason>",
+    "chat_history_snippet": []
+  }
+]

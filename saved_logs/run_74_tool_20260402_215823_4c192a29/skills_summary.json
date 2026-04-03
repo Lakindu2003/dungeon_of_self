@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 3,
+    "reason": "Unlocking the Chain-of-Thought skill (pe_cot) will increase the accuracy of my answers, which is crucial for handling higher-level questions and preserving HP while accumulating XP."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 5,
+    "reason": "Unlocking pe_plan provides both a planning phase and a reflection phase (an additional LLM call after the answer). This is a high-value skill for ensuring accuracy and protecting HP as the difficulty level increases."
+  }
+]

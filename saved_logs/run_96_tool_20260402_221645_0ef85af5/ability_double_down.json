@@ -1,0 +1,26 @@
+[
+  {
+    "chamber_index": 3,
+    "task_id": "7d4a7d1d-cac6-44a8-96e8-ea9584a70825",
+    "question": "According to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?",
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 1) ===\nAccording to Girls Who Code, how long did it take in years for the percentage of computer scientists that were women to change by 13% from a starting point of 37%?\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "To determine how long it took for the percentage of female computer scientists to change by 13% from a starting point of 37%, we look at the data provided by **Girls Who Code** and their research partner, **Accenture**.\n\nAccording to the Girls Who Code and Accenture report titled **\"Cracking the Gender Code\"** (released in **2016**), the percentage of women in the computer science workforce was **37% in 1995**. The report states that \"today\" (referring to the time of the report in 2016), that number had fallen to **24%**.\n\n1.  **Starting Point:** 37% (in 1995)\n2.  **Change:** 13% (37% - 24% = 13%)\n3.  **End Point:** 24% (in 2016)\n4.  **Duration:** 2016 - 1995 = **21 years**\n\nThis specific statistic—a **13% drop in 21 years**—is frequently cited in Girls Who Code's promotional materials, infographics, and press releases associated with the \"Cracking the Gender Code\" campaign. Although some later sources (from 2017) occasionally mention \"22 years\" by updating the \"today\" to the current year, the original and most common figure used by the organization to describe this 13% change is 21 years.\n\n<final_answer>21</final_answer>"
+      }
+    ],
+    "reason": "I want to maximize my XP gain early to unlock skills quickly. Door A is Level 1 Science & Mathematics, which is a strong category for me. Doubling down will provide 2 XP upon a correct answer, likely granting me at least one, if not two, Skill Points immediately while keeping the risk manageable given my 40 HP.",
+    "raw_response": "<action>double_down</action>\n<target>A</target>\n<reason>I want to maximize my XP gain early to unlock skills quickly. Door A is Level 1 Science & Mathematics, which is a strong category for me. Doubling down will provide 2 XP upon a correct answer, likely granting me at least one, if not two, Skill Points immediately while keeping the risk manageable given my 40 HP.</reason>"
+  }
+]

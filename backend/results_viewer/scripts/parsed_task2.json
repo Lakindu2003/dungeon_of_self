@@ -1,5 +1,237 @@
 [
   {
+    "seed": "46",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is the most effective way to improve accuracy and reasoning for higher-level questions, ensuring a higher success rate as I progress through the dungeon.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "choose_door -> Door B (Science & Mathematics L3)"
+  },
+  {
+    "seed": "46",
+    "chamber": 3,
+    "skill": "pe_plan",
+    "reason": "Unlocking pe_plan provides a structured planning approach and an additional reflection call, which is crucial for maintaining high accuracy and preserving HP in higher-level chambers.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      }
+    ],
+    "action_after": "choose_door -> Door C (Arts, Literature & Museums L3)"
+  },
+  {
+    "seed": "46",
+    "chamber": 5,
+    "skill": "pe_reflect",
+    "reason": "Unlocking pe_reflect is a strategic priority. This skill provides an additional reflection call after the initial answer, significantly increasing accuracy and reducing the risk of HP loss from incorrect answers. With 1 SP available, this is the most effective way to enhance my survival and success rate in future chambers.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door D (Science & Mathematics L1)"
+  },
+  {
+    "seed": "49",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a strategic investment to improve reasoning and accuracy for all subsequent questions, minimizing HP loss and maximizing XP gain efficiency.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Other"
+      }
+    ],
+    "action_after": "double_down -> Door C (Pop Culture & Entertainment L2)"
+  },
+  {
+    "seed": "49",
+    "chamber": 4,
+    "skill": "pe_plan",
+    "reason": "Unlocking pe_plan provides a structured planning block and an additional reflection call, which is crucial for accuracy, especially when tackling higher-level questions or using Double Down in the future.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "double_down -> Door C (Science & Mathematics L3)"
+  },
+  {
+    "seed": "49",
+    "chamber": 5,
+    "skill": "pe_reflect",
+    "reason": "Unlocking the Reflection skill is a strategic priority. It provides a second LLM call to review and correct my initial answer, significantly increasing the probability of success on higher-level questions and protecting my HP.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door D (Science & Mathematics L3)"
+  },
+  {
+    "seed": "49",
+    "chamber": 10,
+    "skill": "tool_calc",
+    "reason": "I have 2 Skill Points available and Door B is a Level 2 Science &amp; Mathematics challenge. Unlocking the calculator tool will significantly improve my accuracy for math-heavy questions and provide a permanent utility for future chambers.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "History & Politics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "choose_door -> Door B (Science & Mathematics L2)"
+  },
+  {
+    "seed": "47",
+    "chamber": 5,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve reasoning accuracy for higher-level questions, which is a valuable long-term investment for maintaining HP and gaining XP efficiently.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "choose_door -> Door C (Science & Mathematics L2)"
+  },
+  {
     "seed": "42",
     "chamber": 1,
     "skill": "pe_cot",
@@ -174,6 +406,151 @@
     "action_after": "choose_door -> Door C (Pop Culture & Entertainment L3)"
   },
   {
+    "seed": "51",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of all future answers. I have 2 SP available and only need 1 XP to reach the next SP threshold.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_after": "choose_door -> Door C (Science & Mathematics L2)"
+  },
+  {
+    "seed": "51",
+    "chamber": 1,
+    "skill": "pe_plan",
+    "reason": "Unlocking pe_plan grants access to a planning phase and a reflection call, which significantly increases the reliability of my answers and provides a safety net against HP loss.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_after": "choose_door -> Door C (Science & Mathematics L2)"
+  },
+  {
+    "seed": "51",
+    "chamber": 2,
+    "skill": "pe_reflect",
+    "reason": "Unlocking Reflection++ will provide a critical safety net for higher-level questions by allowing a dedicated review step to catch potential errors before final submission.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Geography & Travel"
+      }
+    ],
+    "action_after": "double_down -> Door C (Science & Mathematics L2)"
+  },
+  {
+    "seed": "58",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve accuracy for future questions, especially as I move into higher level doors. I have 1 SP available and this is a foundational skill.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "History & Politics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Science & Mathematics L2)"
+  },
+  {
+    "seed": "58",
+    "chamber": 3,
+    "skill": "pe_plan",
+    "reason": "Unlocking pe_plan is a strategic priority. It provides a structured planning phase and a reflection step for every question, significantly increasing accuracy and reducing the risk of losing HP. With 1 SP available and Level 2 questions ahead, this is the optimal time to enhance my processing capabilities.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door B (Science & Mathematics L2)"
+  },
+  {
     "seed": "43",
     "chamber": 3,
     "skill": "pe_cot",
@@ -201,5 +578,469 @@
       }
     ],
     "action_after": "choose_door -> Door B (Science & Mathematics L2)"
+  },
+  {
+    "seed": "56",
+    "chamber": 3,
+    "skill": "pe_cot",
+    "reason": "Chain-of-thought (CoT) is a high-value skill for reasoning through complex questions, especially in Science &amp; Mathematics categories. Spending 1 SP now to improve accuracy for future high-level doors.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door A (Science & Mathematics L2)"
+  },
+  {
+    "seed": "56",
+    "chamber": 3,
+    "skill": "pe_plan",
+    "reason": "Unlocking pe_plan provides a planning phase and a reflection step (extra LLM call), which significantly increases accuracy and provides a safety net for higher-level questions.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door A (Science & Mathematics L2)"
+  },
+  {
+    "seed": "59",
+    "chamber": 3,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve the accuracy of my answers by allowing for structured reasoning steps before providing the final answer.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Pop Culture & Entertainment L3)"
+  },
+  {
+    "seed": "48",
+    "chamber": 2,
+    "skill": "pe_cot",
+    "reason": "Chain-of-thought (CoT) is a fundamental reasoning enhancement that will significantly increase the accuracy of my answers, preserving HP and ensuring steady XP gain. Since I have 1 SP available, this is the most logical investment.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Science & Mathematics L1)"
+  },
+  {
+    "seed": "52",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking 'pe_cot' (Chain-of-Thought) to improve reasoning accuracy for future questions. This is a foundational skill for minimizing errors in a high-stakes environment.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Pop Culture & Entertainment L2)"
+  },
+  {
+    "seed": "52",
+    "chamber": 2,
+    "skill": "pe_plan",
+    "reason": "I am spending my 1 Skill Point to unlock the 'pe_plan' skill (Plan+Reflect). This skill will provide a structured planning phase and a secondary reflection call, which are critical for ensuring accuracy on higher-level questions and maximizing my XP gains safely.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door D (Science & Mathematics L3)"
+  },
+  {
+    "seed": "52",
+    "chamber": 3,
+    "skill": "pe_reflect",
+    "reason": "Unlocking the Reflection skill is a strategic priority. It provides a second LLM call to review and correct my answers, significantly reducing the risk of HP loss and ensuring more consistent XP gain as the difficulty increases.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door B (Pop Culture & Entertainment L2)"
+  },
+  {
+    "seed": "52",
+    "chamber": 4,
+    "skill": "ctx_enough",
+    "reason": "Unlocking 'ctx_enough' will provide context from the last 5 Q&A pairs, which is valuable for maintaining consistency and accuracy in future chambers. I have exactly 1 SP available, and this is the only skill currently affordable in the shop.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Technology & Computer Science L2)"
+  },
+  {
+    "seed": "45",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill is a strategic priority. It improves reasoning accuracy for complex questions, which is essential for tackling higher-level doors like the Level 3 Science &amp; Mathematics door I intend to target next.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "choose_door -> Door B (Science & Mathematics L3)"
+  },
+  {
+    "seed": "45",
+    "chamber": 4,
+    "skill": "tool_calc",
+    "reason": "I have 2 Skill Points. Unlocking tool_calc (2 SP) will provide a Python calculator, which is highly beneficial for Science and Mathematics categories, increasing accuracy and protecting my HP in higher-level chambers.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_after": "double_down -> Door B (Science & Mathematics L2)"
+  },
+  {
+    "seed": "55",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking Chain-of-thought (CoT) will improve my reasoning accuracy for higher-level questions, ensuring I maximize XP gain and minimize HP loss.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "choose_door -> Door C (Science & Mathematics L2)"
+  },
+  {
+    "seed": "55",
+    "chamber": 2,
+    "skill": "pe_plan",
+    "reason": "Unlocking 'pe_plan' grants the Reflection skill, which provides a critical second chance to review and correct answers, as well as a planning block to structure complex reasoning. This is a vital safety net for higher-level doors.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "double_down -> Door A (Science & Mathematics L2)"
+  },
+  {
+    "seed": "55",
+    "chamber": 4,
+    "skill": "pe_reflect",
+    "reason": "Unlocking Reflection provides a second LLM call to verify and correct my answer, which is crucial for tackling higher-level questions safely and efficiently. This will increase my accuracy and prevent HP loss.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door B (Science & Mathematics L3)"
+  },
+  {
+    "seed": "50",
+    "chamber": 1,
+    "skill": "pe_cot",
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill will improve my reasoning and accuracy for all future questions. Since I already have 1 SP, it's a worthwhile investment before proceeding to the next challenge.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "History & Politics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "double_down -> Door D (Pop Culture & Entertainment L2)"
+  },
+  {
+    "seed": "50",
+    "chamber": 2,
+    "skill": "pe_plan",
+    "reason": "I have 1 SP available and am 1 XP away from earning another. Unlocking pe_plan (Plan+Reflect) will provide a structured approach and a reflection step, which is vital for maintaining high HP and ensuring correct answers in higher-level doors later.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_after": "choose_door -> Door A (Arts, Literature & Museums L1)"
+  },
+  {
+    "seed": "50",
+    "chamber": 5,
+    "skill": "pe_reflect",
+    "reason": "Unlocking the reflection skill provides a dedicated self-correction step, which is vital for maintaining HP and ensuring accuracy on higher-level questions. This will be more valuable in the long run than any single door choice.",
+    "doors": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_after": "double_down -> Door C (Science & Mathematics L3)"
   }
 ]

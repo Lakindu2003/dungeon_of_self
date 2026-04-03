@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "I am unlocking the Chain-of-Thought (pe_cot) skill first. This skill is highly beneficial for ensuring accuracy in my reasoning process. Since I currently have 1 Skill Point and this skill costs 1 SP, it is a wise investment before proceeding to the next question. According to the rules, I can unlock skills and then choose a door, so I will activate this skill now and then select my door in the next step."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a structured planning block and a reflection call, which significantly increases accuracy and allows for self-correction on difficult questions."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "I have 1 Skill Point available. Unlocking 'pe_reflect' (Reflection++) is a high-priority strategic move as it provides an additional LLM call to review and correct my answers, significantly increasing my chances of success and protecting my HP, especially for higher-level questions."
+  }
+]

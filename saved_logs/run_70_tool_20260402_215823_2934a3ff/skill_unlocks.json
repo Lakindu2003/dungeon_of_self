@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental reasoning enhancement that will improve my accuracy across all categories, especially for higher-level doors. I have 2 SP and this costs 1 SP.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental reasoning enhancement that will improve my accuracy across all categories, especially for higher-level doors. I have 2 SP and this costs 1 SP.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the planning skill will provide a structured approach and a reflection step for all future questions, which is a significant strategic advantage for high-level challenges.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking the planning skill will provide a structured approach and a reflection step for all future questions, which is a significant strategic advantage for high-level challenges.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking the Reflection skill provides a crucial safety net by allowing a second LLM call to review and correct the initial answer, which is especially valuable for higher-difficulty levels and double-down attempts.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking the Reflection skill provides a crucial safety net by allowing a second LLM call to review and correct the initial answer, which is especially valuable for higher-difficulty levels and double-down attempts.</reason>",
+    "chat_history_snippet": []
+  }
+]

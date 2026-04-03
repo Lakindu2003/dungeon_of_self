@@ -1,0 +1,13 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 20,
+    "chamber_index": 5,
+    "reason": "Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of my answers, especially for higher-level Science and Mathematics questions. I will use my current Skill Point to unlock it before proceeding to a door.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental reasoning skill that will improve the accuracy of my answers, especially for higher-level Science and Mathematics questions. I will use my current Skill Point to unlock it before proceeding to a door.</reason>",
+    "chat_history_snippet": []
+  }
+]

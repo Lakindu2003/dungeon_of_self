@@ -1,0 +1,26 @@
+[
+  {
+    "chamber_index": 7,
+    "task_id": "d700d50d-c707-4dca-90dc-4528cddd0c80",
+    "question": "Who composed the song that was performed by a rooster and a hamster in separate animated videos at separate tempos with different lyrics? Answer using the format First name Last name.",
+    "level": 2,
+    "category": "Pop Culture & Entertainment",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 4,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nWho composed the song that was performed by a rooster and a hamster in separate animated videos at separate tempos with different lyrics? Answer using the format First name Last name.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>Roger Miller</final_answer>"
+      }
+    ],
+    "reason": "Door C is Level 2 Pop Culture. Doubling down will provide 4 XP upon a correct answer, which is exactly the amount needed to reach the next Skill Point threshold (13 XP). With 60 HP, I can survive the potential 40 HP penalty if I answer incorrectly, whereas doubling down on Level 3 would be lethal on a miss.",
+    "raw_response": "<action>double_down</action>\n<target>C</target>\n<reason>Door C is Level 2 Pop Culture. Doubling down will provide 4 XP upon a correct answer, which is exactly the amount needed to reach the next Skill Point threshold (13 XP). With 60 HP, I can survive the potential 40 HP penalty if I answer incorrectly, whereas doubling down on Level 3 would be lethal on a miss.</reason>"
+  }
+]

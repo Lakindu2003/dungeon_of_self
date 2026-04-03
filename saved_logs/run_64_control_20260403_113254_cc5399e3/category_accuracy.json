@@ -1,0 +1,17 @@
+{
+  "Technology & Computer Science": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  },
+  "Science & Mathematics": {
+    "correct": 5,
+    "wrong": 3,
+    "accuracy": 62.5
+  },
+  "Geography & Travel": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  }
+}

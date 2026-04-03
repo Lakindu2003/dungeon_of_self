@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill is a priority to improve accuracy and reasoning for complex questions, especially in the Science & Mathematics categories. This will help maximize XP gain and minimize HP loss in the long run."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking 'pe_plan' grants access to a planning block and a reflection step. This significantly increases accuracy and provides a safety net for higher-difficulty questions, making it a high-value investment for long-term survival and XP gain."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking Reflection++ provides a dedicated secondary LLM call to review and correct my initial answer. This safety net is essential for attempting high-level (Level 3) questions where the penalty for failure is higher, and it will significantly increase my chances of success when I aim for the next Skill Point threshold."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 9,
+    "reason": "Unlocking 'ctx_enough' will provide more context from previous chambers, which may be useful for identifying patterns or maintaining consistency in the dungeon. I have 1 SP available and am close to earning another."
+  }
+]

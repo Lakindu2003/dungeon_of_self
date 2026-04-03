@@ -1,0 +1,26 @@
+[
+  {
+    "chamber_index": 6,
+    "task_id": "f0f46385-fc03-4599-b5d3-f56496c3e69f",
+    "question": "In terms of geographical distance between capital cities, which 2 countries are the furthest from each other within the ASEAN bloc according to wikipedia? Answer using a comma separated list, ordering the countries by alphabetical order.",
+    "level": 2,
+    "category": "Geography & Travel",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 4,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nIn terms of geographical distance between capital cities, which 2 countries are the furthest from each other within the ASEAN bloc according to wikipedia? Answer using a comma separated list, ordering the countries by alphabetical order.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>Indonesia, Myanmar</final_answer>"
+      }
+    ],
+    "reason": "I am doubling down on Door C (Geography & Travel) because it is a reliable category for my knowledge base. With 20 HP, I can afford the risk, and the double XP should allow me to reach the next Skill Point threshold (7 XP).",
+    "raw_response": "<action>double_down</action>\n<target>C</target>\n<reason>I am doubling down on Door C (Geography & Travel) because it is a reliable category for my knowledge base. With 20 HP, I can afford the risk, and the double XP should allow me to reach the next Skill Point threshold (7 XP).</reason>"
+  }
+]

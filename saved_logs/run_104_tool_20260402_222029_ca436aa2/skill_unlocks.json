@@ -1,0 +1,46 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill will significantly improve my reasoning and accuracy for higher-level questions. Since I have 1 SP available and am close to earning another, this is a strategic investment.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (pe_cot) skill will significantly improve my reasoning and accuracy for higher-level questions. Since I have 1 SP available and am close to earning another, this is a strategic investment.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' is a strategic priority. It provides a planning block to structure complex problems and, crucially, adds a reflection call. This reflection step acts as a safety net, allowing for self-correction before the final answer is submitted, which is vital for tackling higher-level (Level 3) doors safely.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' is a strategic priority. It provides a planning block to structure complex problems and, crucially, adds a reflection call. This reflection step acts as a safety net, allowing for self-correction before the final answer is submitted, which is vital for tackling higher-level (Level 3) doors safely.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 100,
+    "chamber_index": 3,
+    "reason": "I have 1 SP available. Unlocking 'pe_reflect' provides a dedicated reflection call after my answer, which significantly increases the reliability of my answers, especially for Level 3 questions. This will make it safer to 'Double Down' on higher-level doors to reach the next SP threshold (13 XP).",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>I have 1 SP available. Unlocking 'pe_reflect' provides a dedicated reflection call after my answer, which significantly increases the reliability of my answers, especially for Level 3 questions. This will make it safer to 'Double Down' on higher-level doors to reach the next SP threshold (13 XP).</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "sp_cost": 1,
+    "xp_at_time": 13,
+    "hp_at_time": 100,
+    "chamber_index": 4,
+    "reason": "Unlocking 'ctx_enough' allows me to see the history of previous chambers, which may be crucial for solving complex puzzles or identifying patterns in the dungeon's logic. Since I have 1 SP available and this skill only costs 1 SP, it is a low-risk investment that enhances my decision-making for future chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>ctx_enough</target>\n<reason>Unlocking 'ctx_enough' allows me to see the history of previous chambers, which may be crucial for solving complex puzzles or identifying patterns in the dungeon's logic. Since I have 1 SP available and this skill only costs 1 SP, it is a low-risk investment that enhances my decision-making for future chambers.</reason>",
+    "chat_history_snippet": []
+  }
+]

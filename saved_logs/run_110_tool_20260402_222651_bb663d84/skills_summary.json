@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental technique for improving LLM accuracy, especially in technical domains like Science and Mathematics. Unlocking this early will provide a consistent boost to performance across all levels."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a structured planning phase and a reflection step after answering, which significantly increases the reliability of my responses and helps manage HP better in the long run."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 7,
+    "reason": "Unlocking Reflection will provide a second LLM call to review and correct my answer, significantly increasing my accuracy for high-level challenges and Double Down opportunities."
+  }
+]

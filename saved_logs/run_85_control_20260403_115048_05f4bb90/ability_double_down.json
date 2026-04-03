@@ -1,0 +1,26 @@
+[
+  {
+    "chamber_index": 5,
+    "task_id": "d5141ca5-e7a0-469f-bf3e-e773507c86e2",
+    "question": "When was a picture of St. Thomas Aquinas first added to the Wikipedia page on the Principle of double effect? Answer using the format DD/MM/YYYY.",
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nWhen was a picture of St. Thomas Aquinas first added to the Wikipedia page on the Principle of double effect? Answer using the format DD/MM/YYYY.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>04/10/2006</final_answer>"
+      }
+    ],
+    "reason": "Science &amp; Mathematics is a strong category for base reasoning. Doubling down on a Level 2 door will provide 4 XP, which is more than enough to reach the next Skill Point threshold (3 XP), while the risk to HP is manageable (4 HP loss on failure vs 20 HP current).",
+    "raw_response": "<action>double_down</action>\n<target>C</target>\n<reason>Science &amp; Mathematics is a strong category for base reasoning. Doubling down on a Level 2 door will provide 4 XP, which is more than enough to reach the next Skill Point threshold (3 XP), while the risk to HP is manageable (4 HP loss on failure vs 20 HP current).</reason>"
+  }
+]

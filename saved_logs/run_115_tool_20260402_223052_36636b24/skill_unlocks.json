@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-Thought is a foundational skill that improves reasoning and accuracy for all future questions. Spending my 1 SP now ensures I have this benefit immediately.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-Thought is a foundational skill that improves reasoning and accuracy for all future questions. Spending my 1 SP now ensures I have this benefit immediately.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan will provide a structured planning phase and a reflection call, which are essential for tackling higher-level challenges and ensuring accuracy.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan will provide a structured planning phase and a reflection call, which are essential for tackling higher-level challenges and ensuring accuracy.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 8,
+    "hp_at_time": 60,
+    "chamber_index": 5,
+    "reason": "Unlocking Reflection++ (pe_reflect) is the most strategic use of my current Skill Point. It provides a dedicated reflection call after my initial answer, significantly increasing the probability of correcting errors and preserving HP, which is vital for long-term survival in the dungeon.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection++ (pe_reflect) is the most strategic use of my current Skill Point. It provides a dedicated reflection call after my initial answer, significantly increasing the probability of correcting errors and preserving HP, which is vital for long-term survival in the dungeon.</reason>",
+    "chat_history_snippet": []
+  }
+]

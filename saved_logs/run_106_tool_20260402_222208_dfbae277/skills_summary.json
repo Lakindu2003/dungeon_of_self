@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve the quality and accuracy of my reasoning for future questions, which is a foundational skill for minimizing HP loss."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 1,
+    "reason": "Unlocking 'pe_plan' adds a planning block and a reflection phase to my process. This will significantly increase my accuracy and provide a safety net (reflection) to correct errors before they cost HP, which is a vital long-term investment for the dungeon."
+  }
+]

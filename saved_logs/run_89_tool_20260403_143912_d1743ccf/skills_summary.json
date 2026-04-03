@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-Thought (pe_cot) is a fundamental skill that increases accuracy for complex reasoning, which is particularly useful for the Science &amp; Mathematics categories available in the current doors. I will use my current Skill Point to unlock it before proceeding."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "I have 1 SP and 'pe_plan' provides a planning and reflection phase, which will significantly increase my accuracy and safety in future chambers. Since I only have 1 SP, I will unlock this first before proceeding to a door."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking 'pe_reflect' provides a critical safety net for accuracy. Since I have 1 SP and 80 HP, investing in reflection now will help preserve HP and maximize XP gains in future chambers by allowing for self-correction before a final answer is submitted."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 9,
+    "reason": "I am unlocking the 'ctx_enough' skill to provide better context for future questions by including the last 5 Q&A pairs. I currently have 1 SP and am only 2 XP away from the next threshold (19/21), meaning a correct answer in the next chamber will likely grant me another SP immediately."
+  }
+]

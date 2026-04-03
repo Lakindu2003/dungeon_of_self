@@ -1,0 +1,8 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 5,
+    "reason": "Unlocking Chain-of-thought (pe_cot) is a high-priority upgrade for reasoning-heavy categories like Science & Mathematics, which dominate the current door selection. It will increase the accuracy of my future answers."
+  }
+]

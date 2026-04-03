@@ -1,0 +1,17 @@
+{
+  "Science & Mathematics": {
+    "correct": 6,
+    "wrong": 2,
+    "accuracy": 75.0
+  },
+  "History & Politics": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  },
+  "Arts, Literature & Museums": {
+    "correct": 1,
+    "wrong": 0,
+    "accuracy": 100.0
+  }
+}

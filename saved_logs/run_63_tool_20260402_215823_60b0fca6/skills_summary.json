@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is the most effective skill for improving reasoning and accuracy on trivia and logic questions. Unlocking it now will maximize my chances of success in future chambers."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' provides a planning phase and a reflection call, which will significantly improve my accuracy and safety for higher-level questions."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking the Reflection skill is a high-priority investment. By adding a dedicated reflection step, I significantly reduce the risk of losing HP to avoidable errors and increase the consistency of XP gains. This safety net is particularly valuable as I approach higher-level questions."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 5,
+    "reason": "Unlocking the context skill to ensure I have access to previous Q&A pairs, which may be relevant for future challenges or meta-puzzles in the \"Dungeon of Self.\""
+  }
+]

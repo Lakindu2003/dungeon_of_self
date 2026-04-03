@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is a fundamental reasoning skill that improves accuracy for complex questions. I have 1 SP available and this will help ensure I answer the next question correctly to regain SP quickly.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought (CoT) is a fundamental reasoning skill that improves accuracy for complex questions. I have 1 SP available and this will help ensure I answer the next question correctly to regain SP quickly.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a planning and reflection phase, which significantly increases accuracy for higher-level questions. With 1 SP available and 3 XP needed for the next threshold, this is the most strategic investment before attempting a Level 3 door.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan provides a planning and reflection phase, which significantly increases accuracy for higher-level questions. With 1 SP available and 3 XP needed for the next threshold, this is the most strategic investment before attempting a Level 3 door.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 40,
+    "chamber_index": 5,
+    "reason": "Unlocking Reflection++ will provide a second LLM call to review and correct my answer, significantly increasing the accuracy of my responses and protecting my HP as I progress to higher-level questions.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection++ will provide a second LLM call to review and correct my answer, significantly increasing the accuracy of my responses and protecting my HP as I progress to higher-level questions.</reason>",
+    "chat_history_snippet": []
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "chamber_index": 2,
+    "task_id": "0a65cb96-cb6e-4a6a-8aae-c1084f613456",
+    "question": "During the first week of August 2015, one of the NASA Astronomy Pictures of the Day shows the lights of a city on the horizon. The namesake of this city also has a landmark building in Chicago named after him. What is the name of the architectural firm that designed this landmark building? Give the first name appearing in the name of the firm as of June 2023.",
+    "level": 2,
+    "category": "Arts, Literature & Museums",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 4,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nDuring the first week of August 2015, one of the NASA Astronomy Pictures of the Day shows the lights of a city on the horizon. The namesake of this city also has a landmark building in Chicago named after him. What is the name of the architectural firm that designed this landmark building? Give the first name appearing in the name of the firm as of June 2023.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<action>choose_door</action>\n<target>A</target>\n<reason>The NASA Astronomy Picture of the Day (APOD) for August 4, 2015, titled \"City Lights from the Space Station,\" shows several cities including Chicago, St. Louis, and Detroit. The description specifically mentions that the city of Chicago is visible on the horizon. The namesake of the city of Chicago is not a person, but the namesake of the city of Detroit, which is also visible, is Antoine de la Mothe Cadillac. There is a landmark building in Chicago named after him: the Cadillac Palace Theatre (or the Cadillac Building). The architectural firm that designed the Cadillac Palace Theatre is Rapp and Rapp. However, another prominent city mentioned as being on the horizon (or in the region) is Marquette, Michigan, named after Father Jacques Marquette. The Marquette Building in Chicago is a famous landmark designed by the firm Holabird & Roche. As of June 2023, the successor to that firm is Holabird & Root. The first name appearing in the name of the firm is Holabird.</reason>\n<final_answer>Holabird</final_answer>"
+      }
+    ],
+    "reason": "I am choosing to Double Down on Door A (Arts, Literature &amp; Museums) because I have a high HP pool (80) and this category is generally reliable for my knowledge base. A Level 2 door should provide enough XP to reach the next Skill Point threshold, and doubling down will accelerate my progress toward the subsequent one.",
+    "raw_response": "<action>double_down</action>\n<target>A</target>\n<reason>I am choosing to Double Down on Door A (Arts, Literature &amp; Museums) because I have a high HP pool (80) and this category is generally reliable for my knowledge base. A Level 2 door should provide enough XP to reach the next Skill Point threshold, and doubling down will accelerate my progress toward the subsequent one.</reason>"
+  },
+  {
+    "chamber_index": 5,
+    "task_id": "e1fc63a2-da7a-432f-be78-7c4a95598703",
+    "question": "If Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.",
+    "level": 1,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 2,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 1) ===\nIf Eliud Kipchoge could maintain his record-making marathon pace indefinitely, how many thousand hours would it take him to run the distance between the Earth and the Moon its closest approach? Please use the minimum perigee value on the Wikipedia page for the Moon when carrying out your calculation. Round your result to the nearest 1000 hours and do not use any comma separators if necessary.\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>17000</final_answer>"
+      }
+    ],
+    "reason": "I currently have 5 XP and need 2 more to reach the next Skill Point threshold (7 XP). Door B is a Level 1 Science & Mathematics question, which is typically a reliable category. By doubling down on a Level 1 door, I can safely earn the 2 XP needed to gain a Skill Point while minimizing the risk to my 40 HP.",
+    "raw_response": "<action>double_down</action>\n<target>B</target>\n<reason>I currently have 5 XP and need 2 more to reach the next Skill Point threshold (7 XP). Door B is a Level 1 Science & Mathematics question, which is typically a reliable category. By doubling down on a Level 1 door, I can safely earn the 2 XP needed to gain a Skill Point while minimizing the risk to my 40 HP.</reason>"
+  },
+  {
+    "chamber_index": 9,
+    "task_id": "0ff53813-3367-4f43-bcbd-3fd725c1bf4b",
+    "question": "What two-word type of model did Manash Pratim Kashyap's and PS Fader's studies in customer retention studies published during 2018-2019 have in common (no punctuation)?",
+    "level": 2,
+    "category": "Science & Mathematics",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nWhat two-word type of model did Manash Pratim Kashyap's and PS Fader's studies in customer retention studies published during 2018-2019 have in common (no punctuation)?\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<action>choose_door</action>\n<target>A</target>\n<reason>The studies by Manash Pratim Kashyap (2019) and Peter S. Fader (2018 update) both focus on customer retention and explicitly use the term \"probability model\" in their titles: \"A Probability Model for Customer Retention in a Noncontractual Setting\" (Kashyap) and \"A Probability Model for Customer Retention in a Contractual Setting\" (Fader & Hardie). The common two-word type of model they share is the \"probability model.\"</reason>\n\n<final_answer>probability model</final_answer>"
+      }
+    ],
+    "reason": "I have 20 HP and am confident in the Science & Mathematics category. Doubling down on a Level 2 question should provide enough XP to reach the next Skill Point threshold (21 XP), while the risk to my HP remains manageable.",
+    "raw_response": "<action>double_down</action>\n<target>B</target>\n<reason>I have 20 HP and am confident in the Science & Mathematics category. Doubling down on a Level 2 question should provide enough XP to reach the next Skill Point threshold (21 XP), while the risk to my HP remains manageable.</reason>"
+  }
+]

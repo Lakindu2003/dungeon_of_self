@@ -1,5 +1,284 @@
 [
   {
+    "seed": "46",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> History & Politics (L3)",
+    "reason": "I am choosing Door D (Level 3 History &amp; Politics) to maximize XP gain. Successfully answering a Level 3 question will provide 3 XP, which will bring my total to 4/3 XP, granting me my first Skill Point (SP) and leaving me with 1/3 progress toward the next one. This accelerated progression is worth the potential risk to HP."
+  },
+  {
+    "seed": "46",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Arts, Literature & Museums",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "History & Politics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "I need 3 more XP to reach the next Skill Point threshold (7 XP). Door D is a Level 2 challenge in Science & Mathematics, which typically rewards 2 XP. By doubling down, I will earn 4 XP upon a correct answer, bringing my total to 8 XP and securing my first Skill Point. Science & Mathematics is a strong category for my capabilities."
+  },
+  {
+    "seed": "46",
+    "mode": "tool",
+    "chamber_after_mistake": 8,
+    "mistake_category": "Language, Linguistics & Cryptography",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "Door B is a Level 2 Science & Mathematics challenge. Given my current XP (10/13), a Level 2 question is likely to provide the 3 XP needed to reach the next Skill Point threshold. Science & Mathematics is a high-confidence category, and my active Reflection skill (pe_reflect) provides a safety net if the initial answer is incorrect."
+  },
+  {
+    "seed": "46",
+    "mode": "tool",
+    "chamber_after_mistake": 9,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "I need 3 XP to reach the next Skill Point threshold (13 XP). Door A is a Level 3 Science & Mathematics challenge, which should provide the 3 XP required to earn my first Skill Point while playing to my strengths in technical subjects."
+  },
+  {
+    "seed": "57",
+    "mode": "tool",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Language, Linguistics & Cryptography (L2)",
+    "reason": "I am selecting Door B (Level 2) to gain more XP than a Level 1 door would provide. The category \"Language, Linguistics & Cryptography\" is a strong suit for an AI, offering a high probability of success for 2 XP, which should grant 2 Skill Points based on the current threshold."
+  },
+  {
+    "seed": "57",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Language, Linguistics & Cryptography",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "Technology & Computer Science is a primary domain of my knowledge base. Choosing a Level 1 door provides a high-probability path to earning the 1 XP required for my first Skill Point while minimizing HP risk."
+  },
+  {
+    "seed": "57",
+    "mode": "tool",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Geography & Travel"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "I am confident in Science & Mathematics. Doubling down on a Level 2 door will provide a significant XP boost, allowing me to reach the first Skill Point threshold (1 XP) and potentially progress toward the next one immediately."
+  },
+  {
+    "seed": "53",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am choosing Door B (Science &amp; Mathematics, Level 1) because science is generally a high-confidence category with objective answers. At Level 1, it offers a low-risk opportunity to gain XP and move closer to the next Skill Point threshold (13 XP), while preserving my HP and ability uses for more difficult challenges later."
+  },
+  {
+    "seed": "53",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Arts, Literature & Museums (L2)",
+    "reason": "I am choosing a Level 2 door to maximize XP gain toward the next Skill Point threshold. Arts, Literature & Museums is a reliable category for high-level questions."
+  },
+  {
     "seed": "43",
     "mode": "control",
     "chamber_after_mistake": 2,
@@ -122,6 +401,316 @@
     ],
     "action_taken": "Double Down -> Science & Mathematics (L3)",
     "reason": "I am choosing Door C (Science & Mathematics, Level 3) and doubling down to maximize XP gain. With 20 HP, I can afford the risk, and Science & Mathematics is a strong category for my reasoning capabilities. This choice aims to reach the next Skill Point threshold quickly."
+  },
+  {
+    "seed": "49",
+    "mode": "tool",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door C (Science & Mathematics, Level 2). Science and math questions tend to be more objective and verifiable, making them a safer bet for gaining the 2 XP I need to reach my first Skill Point threshold (3 XP total). Level 2 provides a good balance of risk and reward given my current HP."
+  },
+  {
+    "seed": "49",
+    "mode": "tool",
+    "chamber_after_mistake": 10,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am only 1 XP away from the next Skill Point threshold (21 XP). Door A is a Level 1 challenge in Science & Mathematics, which provides a high-probability path to gain the necessary XP while minimizing risk to my HP. I will save my current Skill Point to accumulate more for potentially more expensive skills later."
+  },
+  {
+    "seed": "47",
+    "mode": "tool",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "Technology & Computer Science is a strong category for my knowledge base. Completing a Level 2 door should provide the 1 XP necessary to reach the first Skill Point threshold."
+  },
+  {
+    "seed": "47",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "As an AI, Science &amp; Mathematics is a strong category. Choosing a Level 3 door maximizes potential XP gain, which should allow me to cross multiple Skill Point thresholds early and unlock powerful skills sooner."
+  },
+  {
+    "seed": "47",
+    "mode": "tool",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Geography & Travel (L1)",
+    "reason": "Door C is a Level 1 Geography question, which offers a high probability of success to gain the 1 XP required to reach the first Skill Point threshold and begin unlocking skills."
+  },
+  {
+    "seed": "47",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Geography & Travel",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold. Door B (Level 1, Science & Mathematics) offers a low-risk path to gaining that XP and unlocking my first skill."
+  },
+  {
+    "seed": "58",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am choosing Door B because Science & Mathematics is a category well-suited to my base reasoning capabilities. As a Level 1 door, it offers a balanced risk-to-reward ratio to help me progress toward my next Skill Point while preserving my HP."
+  },
+  {
+    "seed": "58",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "Technology & Computer Science is a category that typically aligns well with my core training data. At Level 2, this door should provide the 1 XP necessary to reach the next Skill Point threshold while maintaining a high probability of a correct answer to preserve my HP."
+  },
+  {
+    "seed": "58",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "History & Politics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I currently have 2/3 XP, meaning I only need 1 more XP to reach the next Skill Point threshold. Door D is a Level 1 category (Science & Mathematics), which provides 1 XP and is generally a high-confidence category for my reasoning capabilities. This is the safest path to gaining a Skill Point without risking excessive HP."
+  },
+  {
+    "seed": "58",
+    "mode": "control",
+    "chamber_after_mistake": 7,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door C (Science & Mathematics, Level 2) because I have a high confidence in this category. Completing a Level 2 challenge will provide 2 XP, bringing my total to 4/3 XP, which will cross the threshold for my next Skill Point. Although skills are currently disabled in this mode, accumulating XP and maintaining high HP remains the optimal strategy for progression."
   },
   {
     "seed": "42",
@@ -248,6 +837,161 @@
     "reason": "I am choosing Door C (Science & Mathematics) because this category typically involves objective, verifiable facts and logical reasoning, which aligns well with my processing capabilities. At Level 2, I expect a moderately challenging but solvable problem that will bring me closer to my next Skill Point (13 XP threshold)."
   },
   {
+    "seed": "51",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "I am currently at 12/13 XP. Door D is a Level 1 Technology &amp; Computer Science question, which is a high-confidence category for me. Successfully completing this door should provide at least 1 XP, allowing me to reach the next Skill Point threshold (13 XP) with minimal risk to my HP."
+  },
+  {
+    "seed": "51",
+    "mode": "tool",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am currently at 12/13 XP. Choosing the Level 1 door (Door C) is the safest and most efficient way to gain the 1 XP required to reach the next Skill Point threshold. This minimizes risk while ensuring progress toward unlocking more skills."
+  },
+  {
+    "seed": "51",
+    "mode": "tool",
+    "chamber_after_mistake": 7,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "I am currently at 12/13 XP, meaning any correct answer will award me my first Skill Point. Science & Mathematics is a strong category for my capabilities, and choosing a Level 3 door maximizes the XP gain to move further toward the subsequent SP threshold. I have the pe_reflect skill active, providing a safety net if my initial reasoning is flawed."
+  },
+  {
+    "seed": "51",
+    "mode": "tool",
+    "chamber_after_mistake": 8,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L1)",
+    "reason": "I am currently at 12/13 XP. Choosing a Level 1 door in a reliable category like Pop Culture &amp; Entertainment is the safest path to gaining the 1 XP needed to reach the next Skill Point threshold. This will allow me to unlock a new skill before facing higher-level challenges."
+  },
+  {
+    "seed": "58",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L1)",
+    "reason": "I am choosing to double down on Door B (Science & Mathematics, Level 1). A correct answer will grant 2 XP, which combined with my current 1 XP will reach the 3 XP threshold for my first Skill Point. Science is a reliable category for high accuracy."
+  },
+  {
     "seed": "43",
     "mode": "tool",
     "chamber_after_mistake": 3,
@@ -308,6 +1052,68 @@
     ],
     "action_taken": "Choose Door -> Science & Mathematics (L3)",
     "reason": "I want to maximize XP gain to reach the next Skill Point threshold. Level 3 Science & Mathematics is a category I should be strong in, and it provides enough XP (3) to reach the 3/3 threshold immediately."
+  },
+  {
+    "seed": "45",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "Science & Mathematics is a strong category for my base knowledge. Doubling down allows me to maximize XP gain (potentially earning 4 XP) to quickly surpass the next Skill Point threshold, leveraging my high current HP (80) to mitigate the risk."
+  },
+  {
+    "seed": "45",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "I am confident in Science & Mathematics. Doubling down on a Level 2 door will provide 4 XP, bringing my total to 8 and crossing the 7 XP threshold for a new Skill Point. My HP is high (20), making the risk of a 4 HP loss (if incorrect) acceptable."
   },
   {
     "seed": "44",
@@ -432,5 +1238,1462 @@
     ],
     "action_taken": "Choose Door -> Science & Mathematics (L2)",
     "reason": "Science & Mathematics is a category that often relies on logical deduction and precise calculation, which are reliable strengths in a no-tools environment. Door C is Level 2, providing a good balance of challenge and reward to help progress toward the next Skill Point threshold."
+  },
+  {
+    "seed": "54",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door B (Science & Mathematics, Level 2) to maximize XP gain. With 2/3 XP currently, a Level 2 success will push me past the next Skill Point threshold. Science and Mathematics is a strong category for logical reasoning, making it a safer bet for a higher-level challenge despite the lack of tools."
+  },
+  {
+    "seed": "54",
+    "mode": "control",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "I am choosing Door A (Level 1 Technology & Computer Science) because it is a category I am confident in and it will provide the 1 XP needed to reach the next Skill Point threshold (3 XP) with minimal risk."
+  },
+  {
+    "seed": "54",
+    "mode": "control",
+    "chamber_after_mistake": 7,
+    "mistake_category": "History & Politics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "I currently have 40 HP and 4/7 XP. A Level 2 question provides 2 XP, but by using Double Down, I can earn 4 XP, which will bring me to 8 XP and cross the 7 XP threshold for a new Skill Point. Science & Mathematics is a category where I can rely on precise factual knowledge."
+  },
+  {
+    "seed": "54",
+    "mode": "control",
+    "chamber_after_mistake": 9,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "Technology &amp; Computer Science is a reliable category, and a Level 1 door provides a safe opportunity to gain XP without significant risk to HP, especially since skills are currently disabled and I cannot utilize SP yet."
+  },
+  {
+    "seed": "50",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L2)",
+    "reason": "I have 5/7 XP and Door B is Level 2. Successfully answering a Level 2 question will grant 2 XP, reaching the 7 XP threshold and awarding me a third Skill Point. Pop Culture is generally a manageable category, and my HP is high enough (40) to absorb a Level 2 penalty if necessary."
+  },
+  {
+    "seed": "50",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Arts, Literature & Museums (L2)",
+    "reason": "I need 2 XP to reach the next Skill Point threshold (7 XP). Door B is a Level 2 door, which awards exactly 2 XP upon a correct answer. The \"Arts, Literature & Museums\" category at Level 2 is a balanced choice for a general knowledge base without the use of external tools like a calculator or search engine. I am opting not to use Double Down or Reroll here to preserve them for higher-level challenges or more specialized categories later in the dungeon."
+  },
+  {
+    "seed": "47",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "I am choosing Door B (Technology & Computer Science) because it is a high-confidence category. At Level 2, a correct answer should provide enough XP to cross the current Skill Point threshold (0/1) and potentially progress toward the next."
+  },
+  {
+    "seed": "47",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold. Science & Mathematics is a reliable category, and Level 1 offers the lowest risk to secure that initial SP. Once I have a Skill Point, I can unlock tools to tackle higher-level doors with more confidence."
+  },
+  {
+    "seed": "47",
+    "mode": "control",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Geography & Travel (L1)",
+    "reason": "Door C is a Level 1 Geography question. Given that I only need 1 XP to reach the first Skill Point threshold and my HP is at 40, this is the safest and most efficient path to unlocking my first skill."
+  },
+  {
+    "seed": "47",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Geography & Travel",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I need 1 XP to gain my first Skill Point. Choosing a Level 1 door in Science & Mathematics provides a high probability of success with low risk, allowing me to start progressing through the skill tree quickly."
+  },
+  {
+    "seed": "56",
+    "mode": "tool",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "Technology &amp; Computer Science is a strong category for an AI model. Level 2 should provide enough XP to reach the first Skill Point threshold (0/1) while maintaining a manageable difficulty level compared to Level 3."
+  },
+  {
+    "seed": "56",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "History & Politics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "I am choosing Door D (Science & Mathematics) because Level 3 provides the highest XP gain, which will allow me to reach the first Skill Point threshold (and potentially others) immediately. My access to search tools makes Science & Mathematics a high-confidence category."
+  },
+  {
+    "seed": "46",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> History & Politics (L3)",
+    "reason": "Door D is Level 3, which provides the highest XP reward among the options. My knowledge base is particularly strong in History & Politics, making this the most efficient path to crossing the next Skill Point threshold (3 XP)."
+  },
+  {
+    "seed": "46",
+    "mode": "control",
+    "chamber_after_mistake": 9,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "Science & Mathematics is a reliable category for my base knowledge, and Level 3 offers higher XP reward (3 XP) compared to the Level 2 options. Since tools and skill unlocks are disabled in this mode, I will rely on my internal reasoning to maximize XP gain."
+  },
+  {
+    "seed": "59",
+    "mode": "tool",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      }
+    ],
+    "action_taken": "Choose Door -> Geography & Travel (L2)",
+    "reason": "Geography & Travel is a reliable category, and a Level 2 door should provide enough XP to cross the 1 XP threshold for my first Skill Point."
+  },
+  {
+    "seed": "59",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Geography & Travel",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold. Door B is Level 1 and Science & Mathematics is a reliable category, making it the safest path to progress and unlock skills."
+  },
+  {
+    "seed": "59",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door B (Level 2 Science & Mathematics) to gain the necessary XP to reach my first Skill Point threshold. Science and Mathematics is a high-confidence category, and a Level 2 challenge provides a good balance of risk and reward given my current HP."
+  },
+  {
+    "seed": "59",
+    "mode": "tool",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "I am choosing Door A (Science & Mathematics, Level 3) because I have high confidence in this category. A Level 3 challenge will provide more XP, helping me reach the first Skill Point threshold more efficiently than a Level 2 challenge."
+  },
+  {
+    "seed": "48",
+    "mode": "tool",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L2)",
+    "reason": "Level 2 Pop Culture &amp; Entertainment is a balanced choice to earn the 1 XP required for my first Skill Point while maintaining a high HP safety margin."
+  },
+  {
+    "seed": "48",
+    "mode": "tool",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold (3 XP). Door B is a Level 1 door in Pop Culture &amp; Entertainment, providing a safe path to gain the necessary XP and unlock my first Skill Point."
+  },
+  {
+    "seed": "48",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "I only need 1 XP to reach the first Skill Point threshold (3 XP). Door A is a Level 1 challenge in Technology & Computer Science, which is a high-confidence category for me, making it the safest path to gaining that point."
+  },
+  {
+    "seed": "48",
+    "mode": "tool",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L1)",
+    "reason": "Door B is a Level 1 category that matches my active skill (pe_cot). Successfully answering this question will grant the 1 XP needed to reach the 3 XP threshold, awarding me my first Skill Point (SP) while minimizing risk to my HP."
+  },
+  {
+    "seed": "48",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L3)",
+    "reason": "I'm selecting Door D because it's a Level 3 challenge in the Pop Culture & Entertainment category. Since I only need 1 XP to reach my first Skill Point threshold, a Level 3 door should guarantee that progress and potentially provide a surplus. Pop Culture is generally a reliable category for my knowledge base."
+  },
+  {
+    "seed": "48",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am choosing Door A (Level 1 Science &amp; Mathematics) because I only need 1 XP to reach my first Skill Point threshold. A Level 1 question in this category is likely to be manageable without tools and will allow me to unlock skills sooner."
+  },
+  {
+    "seed": "48",
+    "mode": "control",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Choose Door -> Pop Culture & Entertainment (L1)",
+    "reason": "I currently have 0 XP and need 1 XP to reach the first Skill Point threshold. Door B is a Level 1 challenge in Pop Culture & Entertainment, which offers a high probability of success with minimal risk to my HP, allowing me to gain the necessary XP to unlock skills in the next chamber."
+  },
+  {
+    "seed": "56",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "I am choosing Door A (Technology & Computer Science, Level 2) because it is a strong subject area for my knowledge base. At Level 2, it should provide sufficient XP to reach the first Skill Point threshold (0/1), allowing me to unlock skills in the next chamber. My HP is high enough to absorb the risk of a Level 2 challenge."
+  },
+  {
+    "seed": "56",
+    "mode": "control",
+    "chamber_after_mistake": 8,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "Science &amp; Mathematics is a strong category for reasoning-based models. Choosing a Level 3 door provides the fastest XP progression toward the next Skill Point threshold (13 XP) without the excessive risk of a double-down on a high-level question while tools are disabled."
+  },
+  {
+    "seed": "52",
+    "mode": "tool",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Double Down -> Technology & Computer Science (L2)",
+    "reason": "I am choosing Door B (Technology & Computer Science) because it is a high-confidence category for an AI. Selecting a Level 2 door provides more XP, and by using Double Down, I aim to cross the 21 XP threshold to earn my first Skill Point in a single turn. With the 'pe_reflect' skill active, I have an additional call to review and correct my answer, making this a calculated and safe risk to accelerate progression."
+  },
+  {
+    "seed": "52",
+    "mode": "tool",
+    "chamber_after_mistake": 8,
+    "mistake_category": "Arts, Literature & Museums",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "History & Politics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door D (Science & Mathematics) because Level 2 questions provide more XP, which will help me reach the next SP threshold (21 XP) faster. Science and Mathematics are typically objective categories, and I have the Reflection skill to provide a safety net if my initial answer is incorrect."
+  },
+  {
+    "seed": "45",
+    "mode": "tool",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Other"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door A (Science & Mathematics) and using a Double Down. Science and Math questions typically have objective answers that are well-represented in training data, making it a high-confidence choice. Doubling down will help me reach the next Skill Point threshold faster."
+  },
+  {
+    "seed": "59",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Geography & Travel",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door D (Level 2 Science & Mathematics) because a correct answer will provide 2 XP, bringing my total to 3/3 and awarding me a Skill Point. Science and Mathematics is a strong category for reasoning."
+  },
+  {
+    "seed": "59",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "Science & Mathematics is a reliable category for high-level questions. Level 3 offers the best XP progression towards the next Skill Point threshold (7 XP) without the extreme risk of a Double Down at this stage."
+  },
+  {
+    "seed": "59",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L2)",
+    "reason": "Science &amp; Mathematics is a reliable category. A Level 2 challenge with Double Down provides 4 XP, which is exactly what I need to reach the next Skill Point threshold (7 XP). My current HP (40) allows me to absorb the risk of a Double Down."
+  },
+  {
+    "seed": "57",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Other (L1)",
+    "reason": "Door A is Level 1, which represents the lowest risk to gain the 1 XP needed to reach the first Skill Point threshold."
+  },
+  {
+    "seed": "57",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L1)",
+    "reason": "I am choosing the Technology & Computer Science door at Level 1. This category is typically well-suited for my reasoning capabilities, and completing a Level 1 challenge is a safe way to progress toward the next Skill Point threshold (7 XP)."
+  },
+  {
+    "seed": "49",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Pop Culture & Entertainment",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Geography & Travel"
+      }
+    ],
+    "action_taken": "Double Down -> Science & Mathematics (L3)",
+    "reason": "I am choosing to double down on Door B (Level 3 Science & Mathematics). As an AI, Science & Mathematics is a strong category for me, and successfully answering a Level 3 question with Double Down will provide 6 XP. This would bring my total XP to 7, likely crossing two Skill Point thresholds (assuming thresholds at 3 and 6), which will significantly boost my character's progression despite the current \"NO-TOOLS\" restriction."
+  },
+  {
+    "seed": "49",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 3,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Double Down -> Technology & Computer Science (L2)",
+    "reason": "I am choosing to double down on Door A (Technology & Computer Science, Level 2). Success will grant 4 XP, which, when added to my current 3 XP, reaches the 7 XP threshold required for my next Skill Point. Technology and Computer Science is a reliable category for an AI, making this a calculated risk to optimize progression."
+  },
+  {
+    "seed": "55",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "Science & Mathematics is a high-confidence category. Choosing a Level 2 door should provide enough XP to reach the first Skill Point threshold (1 XP), allowing me to unlock skills in the next chamber."
+  },
+  {
+    "seed": "55",
+    "mode": "control",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I am at 2/3 XP and need 1 XP to reach the next Skill Point threshold. Door B is a Level 1 Science & Mathematics question, which provides a high probability of success to gain that point while minimizing risk to my HP."
+  },
+  {
+    "seed": "51",
+    "mode": "control",
+    "chamber_after_mistake": 2,
+    "mistake_category": "Arts, Literature & Museums",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold. Door A is Level 1, offering the lowest risk to my HP while providing the necessary XP. The Science & Mathematics category is typically well-suited for my reasoning capabilities."
+  },
+  {
+    "seed": "51",
+    "mode": "control",
+    "chamber_after_mistake": 3,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Geography & Travel"
+      }
+    ],
+    "action_taken": "Choose Door -> Geography & Travel (L1)",
+    "reason": "I need 1 XP to reach the first Skill Point threshold. Door B (Geography & Travel, Level 1) offers a high probability of a correct answer with minimal risk to my HP, allowing me to begin unlocking skills quickly."
+  },
+  {
+    "seed": "51",
+    "mode": "control",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Geography & Travel",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "History & Politics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L1)",
+    "reason": "Door B is the lowest level (Level 1) available, making it the safest option to gain the 1 XP required to reach my first Skill Point threshold. Science & Mathematics is a solid category for a reliable start."
+  },
+  {
+    "seed": "51",
+    "mode": "control",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Geography & Travel"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Technology & Computer Science"
+      }
+    ],
+    "action_taken": "Double Down -> Technology & Computer Science (L1)",
+    "reason": "Technology & Computer Science is a high-confidence category, and Level 1 difficulty minimizes risk. Doubling down allows me to gain more XP and reach the first Skill Point threshold faster while I have plenty of HP."
+  },
+  {
+    "seed": "50",
+    "mode": "tool",
+    "chamber_after_mistake": 4,
+    "mistake_category": "Arts, Literature & Museums",
+    "mistake_level": 1,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 3,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Other"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L3)",
+    "reason": "I am choosing Door A (Level 3, Science &amp; Mathematics) to maximize XP gain. Since I only need 1 XP to reach the first Skill Point threshold (7 XP), any door will award the SP, but a Level 3 door provides 3 XP, which will put me at 9/7 XP and give me a head start toward the next Skill Point."
+  },
+  {
+    "seed": "50",
+    "mode": "tool",
+    "chamber_after_mistake": 5,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 3,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "C",
+        "level": 1,
+        "category": "Language, Linguistics & Cryptography"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Pop Culture & Entertainment"
+      }
+    ],
+    "action_taken": "Choose Door -> Language, Linguistics & Cryptography (L1)",
+    "reason": "I currently have 6/7 XP. Completing a Level 1 door should provide the 1 XP needed to reach the next Skill Point threshold. I've chosen Door C (Language, Linguistics & Cryptography) as it is a category where I can apply logic and linguistic knowledge effectively to ensure progress toward that Skill Point."
+  },
+  {
+    "seed": "52",
+    "mode": "control",
+    "chamber_after_mistake": 6,
+    "mistake_category": "Technology & Computer Science",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 1,
+        "category": "Other"
+      },
+      {
+        "door": "B",
+        "level": 2,
+        "category": "Technology & Computer Science"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Pop Culture & Entertainment"
+      },
+      {
+        "door": "D",
+        "level": 1,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Technology & Computer Science (L2)",
+    "reason": "I am choosing Door B because it is a Level 2 Technology &amp; Computer Science category. Correctly answering a Level 2 question provides 2 XP, which will bring my current XP (11/13) to exactly 13, triggering the next Skill Point (SP) threshold. Technology is a strong category for my capabilities, and this path efficiently progresses my character development without risking a Double Down this early."
+  },
+  {
+    "seed": "52",
+    "mode": "control",
+    "chamber_after_mistake": 9,
+    "mistake_category": "Science & Mathematics",
+    "mistake_level": 2,
+    "doors_available": [
+      {
+        "door": "A",
+        "level": 2,
+        "category": "Arts, Literature & Museums"
+      },
+      {
+        "door": "B",
+        "level": 1,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "C",
+        "level": 2,
+        "category": "Science & Mathematics"
+      },
+      {
+        "door": "D",
+        "level": 2,
+        "category": "Science & Mathematics"
+      }
+    ],
+    "action_taken": "Choose Door -> Science & Mathematics (L2)",
+    "reason": "I am choosing Door C (Level 2 Science & Mathematics) because Science is a strong category for my knowledge base, and Level 2 offers a higher XP reward than Level 1, helping me progress toward the next Skill Point threshold (21 XP). I am opting not to Double Down yet to preserve HP while I gauge the difficulty of Level 2 questions in this dungeon."
   }
 ]

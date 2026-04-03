@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 60,
+    "chamber_index": 3,
+    "reason": "Unlocking the Chain-of-Thought skill will improve my reasoning capabilities and accuracy for all subsequent questions, which is a high-value long-term investment for only 1 SP.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought skill will improve my reasoning capabilities and accuracy for all subsequent questions, which is a high-value long-term investment for only 1 SP.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 20,
+    "chamber_index": 6,
+    "reason": "Unlocking pe_plan adds a planning phase and a reflection phase (extra LLM call) to my process. This significantly increases accuracy and provides a safety net to protect my HP, which is vital for long-term progression.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan adds a planning phase and a reflection phase (extra LLM call) to my process. This significantly increases accuracy and provides a safety net to protect my HP, which is vital for long-term progression.</reason>",
+    "chat_history_snippet": []
+  }
+]

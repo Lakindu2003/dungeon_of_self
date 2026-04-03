@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Chain-of-thought is a fundamental technique for improving LLM accuracy, especially in technical domains like Science and Mathematics. Unlocking this early will provide a consistent boost to performance across all levels.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Chain-of-thought is a fundamental technique for improving LLM accuracy, especially in technical domains like Science and Mathematics. Unlocking this early will provide a consistent boost to performance across all levels.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a structured planning phase and a reflection step after answering, which significantly increases the reliability of my responses and helps manage HP better in the long run.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan provides a structured planning phase and a reflection step after answering, which significantly increases the reliability of my responses and helps manage HP better in the long run.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 20,
+    "chamber_index": 7,
+    "reason": "Unlocking Reflection will provide a second LLM call to review and correct my answer, significantly increasing my accuracy for high-level challenges and Double Down opportunities.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking Reflection will provide a second LLM call to review and correct my answer, significantly increasing my accuracy for high-level challenges and Double Down opportunities.</reason>",
+    "chat_history_snippet": []
+  }
+]

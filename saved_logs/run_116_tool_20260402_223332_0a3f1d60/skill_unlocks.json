@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a high-priority investment to increase accuracy and reasoning depth for higher-level challenges, ensuring better success rates on Level 3 doors.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) is a high-priority investment to increase accuracy and reasoning depth for higher-level challenges, ensuring better success rates on Level 3 doors.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking the Plan+Reflect skill is a strategic priority. The reflection step (an extra LLM call) significantly increases the probability of correct answers on higher-level questions, which is essential for safely tackling Level 3 doors and accumulating XP efficiently.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking the Plan+Reflect skill is a strategic priority. The reflection step (an extra LLM call) significantly increases the probability of correct answers on higher-level questions, which is essential for safely tackling Level 3 doors and accumulating XP efficiently.</reason>",
+    "chat_history_snippet": []
+  }
+]

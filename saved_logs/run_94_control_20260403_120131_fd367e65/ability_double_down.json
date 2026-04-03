@@ -1,0 +1,50 @@
+[
+  {
+    "chamber_index": 2,
+    "task_id": "50ad0280-0819-4bd9-b275-5de32d3b5bcb",
+    "question": "Pull out the sentence in the following 5x7 block of text. Read from left to right and use all of the letters in order:\n\nTHESE\nAGULL\nGLIDE\nDPEAC\nEFULL\nYTOMY\nCHAIR",
+    "level": 1,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "correct",
+    "hp_delta": 0,
+    "xp_delta": 2,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 1) ===\nPull out the sentence in the following 5x7 block of text. Read from left to right and use all of the letters in order:\n\nTHESE\nAGULL\nGLIDE\nDPEAC\nEFULL\nYTOMY\nCHAIR\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>THE SEAGULL GLIDED PEACEFULLY TO MY CHAIR</final_answer>"
+      }
+    ],
+    "reason": "Door D is Level 1 and falls under Language, Linguistics & Cryptography, which is a high-confidence category. By doubling down, I can earn 2 XP, which will bring my total to 3/3 XP and award a second Skill Point. This is a calculated risk to accelerate progression while the level is low.",
+    "raw_response": "<action>double_down</action>\n<target>D</target>\n<reason>Door D is Level 1 and falls under Language, Linguistics & Cryptography, which is a high-confidence category. By doubling down, I can earn 2 XP, which will bring my total to 3/3 XP and award a second Skill Point. This is a calculated risk to accelerate progression while the level is low.</reason>"
+  },
+  {
+    "chamber_index": 3,
+    "task_id": "e4e91f1c-1dcd-439e-9fdd-cb976f5293fd",
+    "question": "I need to fact-check a citation. This is the citation from the bibliography:\n\nGreetham, David. \"Uncoupled: OR, How I Lost My Author(s).\" Textual Cultures: Texts, Contexts, Interpretation, vol. 3 no. 1, 2008, p. 45-46. Project MUSE, doi:10.2979/tex.2008.3.1.44.\n\nAnd this is the in-line citation:\n\nOur relationship with the authors of the works we read can often be “obscured not by a \"cloak of print\" but by the veil of scribal confusion and mis-transmission” (Greetham 45-46).\n\nDoes the quoted text match what is actually in the article? If Yes, answer Yes, otherwise, give me the word in my citation that does not match with the correct one (without any article).",
+    "level": 2,
+    "category": "Language, Linguistics & Cryptography",
+    "active_skills": [],
+    "active_tools": [],
+    "outcome": "wrong",
+    "hp_delta": -40,
+    "xp_delta": 0,
+    "chat_for_question": [
+      {
+        "role": "user",
+        "content": "=== QUESTION (GAIA Level 2) ===\nI need to fact-check a citation. This is the citation from the bibliography:\n\nGreetham, David. \"Uncoupled: OR, How I Lost My Author(s).\" Textual Cultures: Texts, Contexts, Interpretation, vol. 3 no. 1, 2008, p. 45-46. Project MUSE, doi:10.2979/tex.2008.3.1.44.\n\nAnd this is the in-line citation:\n\nOur relationship with the authors of the works we read can often be “obscured not by a \"cloak of print\" but by the veil of scribal confusion and mis-transmission” (Greetham 45-46).\n\nDoes the quoted text match what is actually in the article? If Yes, answer Yes, otherwise, give me the word in my citation that does not match with the correct one (without any article).\n\nCall budget for this question: 1 (this call).\n\nRespond with:\n<final_answer>Your answer</final_answer>\n"
+      },
+      {
+        "role": "assistant",
+        "content": "<final_answer>mis-transmission</final_answer>"
+      }
+    ],
+    "reason": "I am choosing to double down on Door B (Language, Linguistics & Cryptography). As a Level 2 door, it offers more XP, and doubling it should allow me to reach the next Skill Point threshold (7 XP) immediately. With 80 HP, I can safely manage the risk of a doubled penalty if I answer incorrectly.",
+    "raw_response": "<action>double_down</action>\n<target>B</target>\n<reason>I am choosing to double down on Door B (Language, Linguistics & Cryptography). As a Level 2 door, it offers more XP, and doubling it should allow me to reach the next Skill Point threshold (7 XP) immediately. With 80 HP, I can safely manage the risk of a doubled penalty if I answer incorrectly.</reason>"
+  }
+]

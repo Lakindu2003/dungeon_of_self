@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (CoT) skill is a priority to ensure higher accuracy on complex or higher-level questions. This will maximize the chances of gaining XP and reaching the next Skill Point threshold without losing HP."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan is a high-priority strategic move. It grants a planning block and a reflection call, which significantly increases accuracy and provides a safety net for difficult questions. Since I have 1 SP available, this is the most effective way to utilize it before attempting a higher-level door."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "Unlocking 'pe_reflect' allows for a dedicated reflection LLM call after the initial answer, which significantly increases accuracy and helps preserve HP while maximizing XP gain in the long run."
+  }
+]

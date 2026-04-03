@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will significantly improve my reasoning accuracy for higher-level questions. Since I already have 1 SP, it is a wise investment before tackling more difficult doors.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) will significantly improve my reasoning accuracy for higher-level questions. Since I already have 1 SP, it is a wise investment before tackling more difficult doors.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 5,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' is a high-priority strategic move. It grants a planning block and a reflection call (+1 LLM call) for all future questions, significantly increasing my accuracy and ability to self-correct. Since I have 1 SP available and need 2 XP to reach the next threshold, this investment will pay off immediately in the next challenge.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' is a high-priority strategic move. It grants a planning block and a reflection call (+1 LLM call) for all future questions, significantly increasing my accuracy and ability to self-correct. Since I have 1 SP available and need 2 XP to reach the next threshold, this investment will pay off immediately in the next challenge.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 60,
+    "chamber_index": 4,
+    "reason": "I have 1 Skill Point available. Unlocking 'pe_reflect' (Reflection++) will provide a dedicated second LLM call to review and correct my answers, which is a significant safety net for higher-level questions and will help preserve my HP while maximizing XP gain.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>I have 1 Skill Point available. Unlocking 'pe_reflect' (Reflection++) will provide a dedicated second LLM call to review and correct my answers, which is a significant safety net for higher-level questions and will help preserve my HP while maximizing XP gain.</reason>",
+    "chat_history_snippet": []
+  }
+]

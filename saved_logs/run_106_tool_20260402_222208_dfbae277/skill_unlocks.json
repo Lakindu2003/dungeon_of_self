@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve the quality and accuracy of my reasoning for future questions, which is a foundational skill for minimizing HP loss.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) will improve the quality and accuracy of my reasoning for future questions, which is a foundational skill for minimizing HP loss.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking 'pe_plan' adds a planning block and a reflection phase to my process. This will significantly increase my accuracy and provide a safety net (reflection) to correct errors before they cost HP, which is a vital long-term investment for the dungeon.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' adds a planning block and a reflection phase to my process. This will significantly increase my accuracy and provide a safety net (reflection) to correct errors before they cost HP, which is a vital long-term investment for the dungeon.</reason>",
+    "chat_history_snippet": []
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is a fundamental reasoning skill that improves accuracy for complex questions. I have 1 SP available and this will help ensure I answer the next question correctly to regain SP quickly."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides a planning and reflection phase, which significantly increases accuracy for higher-level questions. With 1 SP available and 3 XP needed for the next threshold, this is the most strategic investment before attempting a Level 3 door."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "Unlocking Reflection++ will provide a second LLM call to review and correct my answer, significantly increasing the accuracy of my responses and protecting my HP as I progress to higher-level questions."
+  }
+]

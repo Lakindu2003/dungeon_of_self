@@ -1,0 +1,35 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 80,
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) is a high-priority investment to increase accuracy by allowing structured reasoning before providing a final answer. I have 1 SP available, and this will be active for the next door I choose.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking Chain-of-Thought (pe_cot) is a high-priority investment to increase accuracy by allowing structured reasoning before providing a final answer. I have 1 SP available, and this will be active for the next door I choose.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 80,
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan will allow me to outline my approach and reflect on my answers, which is crucial for maintaining HP and efficiently gaining XP in higher-level chambers.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan will allow me to outline my approach and reflect on my answers, which is crucial for maintaining HP and efficiently gaining XP in higher-level chambers.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 7,
+    "hp_at_time": 20,
+    "chamber_index": 7,
+    "reason": "Unlocking the reflection skill is a high-priority strategic move. It allows for a dedicated second LLM call to review and correct my initial answer, significantly increasing the probability of success on more difficult questions and protecting my HP as I progress through higher levels.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking the reflection skill is a high-priority strategic move. It allows for a dedicated second LLM call to review and correct my initial answer, significantly increasing the probability of success on more difficult questions and protecting my HP as I progress through higher levels.</reason>",
+    "chat_history_snippet": []
+  }
+]

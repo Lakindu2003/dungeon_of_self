@@ -1,0 +1,8 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 2,
+    "reason": "Unlocking Chain-of-thought (pe_cot) is a strategic priority to improve accuracy on high-level questions. As an AI, structured reasoning significantly reduces the margin of error for complex Science and Mathematics problems."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought skill (pe_cot) is a high-priority strategic move. It improves reasoning accuracy for all future questions, which is essential for maintaining HP and maximizing XP gain in the long run. Since I have 1 SP available, this is the most efficient use of resources before attempting a higher-level door."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 5,
+    "reason": "Unlocking 'pe_plan' adds a planning and reflection phase to my process. This is a high-value skill as it allows for self-correction (Reflection skill) which grants an additional LLM call to review and correct the answer, significantly increasing accuracy for future challenges."
+  }
+]

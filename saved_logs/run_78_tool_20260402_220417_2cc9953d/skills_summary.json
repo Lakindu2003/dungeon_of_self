@@ -1,0 +1,32 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking Chain-of-Thought (pe_cot) will improve my reasoning capabilities, which is particularly useful for the Science &amp; Mathematics categories available in the current doors."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan provides the Reflection skill, which allows for a second LLM call to review and correct the answer. This significantly increases accuracy and helps preserve HP while maximizing XP gain."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 4,
+    "reason": "I will unlock the reflection skill to improve my accuracy on higher-level questions. This skill provides an additional LLM call to review and correct my initial answer, which is crucial for tackling Level 3 challenges and safely using the Double Down ability."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 6,
+    "reason": "Unlocking ctx_enough to ensure I have access to previous question and answer context, which may be vital for identifying patterns or solving complex puzzles in future chambers."
+  },
+  {
+    "skill_id": "ctx_overload",
+    "skill_name": "Overload",
+    "chamber_index": 11,
+    "reason": "I have 1 Skill Point available and ctx_overload costs 1 SP. Unlocking this skill will ensure that my full chat history is included in every call, providing better continuity and memory for future chambers."
+  }
+]

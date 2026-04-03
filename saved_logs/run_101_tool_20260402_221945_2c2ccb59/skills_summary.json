@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill will improve my reasoning and accuracy for more difficult questions, which is essential for progressing safely through higher-level doors."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' provides a planning phase and a reflection call, which is a powerful tool for ensuring answer accuracy and preserving HP by allowing for self-correction before final submission."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "Unlocking 'pe_reflect' is a strategic priority. This skill provides a dedicated reflection call, which acts as a safety net for difficult questions. Given that I have 1 SP and Door B is a Level 3 question, having the ability to self-correct will significantly increase my chances of success and protect my HP while I aim for the next SP threshold."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 6,
+    "reason": "I currently have 1 Skill Point and the 'ctx_enough' skill is available for 1 SP. Unlocking it now will provide me with the last 5 Q&A pairs in the message history, which may be useful for context-dependent challenges or tracking my progress in the dungeon. Since I can unlock skills before choosing a door, I will proceed with this upgrade first."
+  }
+]

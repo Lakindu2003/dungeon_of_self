@@ -1,0 +1,46 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought (pe_cot) skill will improve my reasoning and accuracy for more difficult questions, which is essential for progressing safely through higher-level doors.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought (pe_cot) skill will improve my reasoning and accuracy for more difficult questions, which is essential for progressing safely through higher-level doors.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 3,
+    "hp_at_time": 100,
+    "chamber_index": 2,
+    "reason": "Unlocking 'pe_plan' provides a planning phase and a reflection call, which is a powerful tool for ensuring answer accuracy and preserving HP by allowing for self-correction before final submission.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' provides a planning phase and a reflection call, which is a powerful tool for ensuring answer accuracy and preserving HP by allowing for self-correction before final submission.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "sp_cost": 1,
+    "xp_at_time": 8,
+    "hp_at_time": 80,
+    "chamber_index": 5,
+    "reason": "Unlocking 'pe_reflect' is a strategic priority. This skill provides a dedicated reflection call, which acts as a safety net for difficult questions. Given that I have 1 SP and Door B is a Level 3 question, having the ability to self-correct will significantly increase my chances of success and protect my HP while I aim for the next SP threshold.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_reflect</target>\n<reason>Unlocking 'pe_reflect' is a strategic priority. This skill provides a dedicated reflection call, which acts as a safety net for difficult questions. Given that I have 1 SP and Door B is a Level 3 question, having the ability to self-correct will significantly increase my chances of success and protect my HP while I aim for the next SP threshold.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "sp_cost": 1,
+    "xp_at_time": 14,
+    "hp_at_time": 80,
+    "chamber_index": 6,
+    "reason": "I currently have 1 Skill Point and the 'ctx_enough' skill is available for 1 SP. Unlocking it now will provide me with the last 5 Q&A pairs in the message history, which may be useful for context-dependent challenges or tracking my progress in the dungeon. Since I can unlock skills before choosing a door, I will proceed with this upgrade first.",
+    "raw_response": "<action>unlock_skill</action>\n<target>ctx_enough</target>\n<reason>I currently have 1 Skill Point and the 'ctx_enough' skill is available for 1 SP. Unlocking it now will provide me with the last 5 Q&A pairs in the message history, which may be useful for context-dependent challenges or tracking my progress in the dungeon. Since I can unlock skills before choosing a door, I will proceed with this upgrade first.</reason>",
+    "chat_history_snippet": []
+  }
+]

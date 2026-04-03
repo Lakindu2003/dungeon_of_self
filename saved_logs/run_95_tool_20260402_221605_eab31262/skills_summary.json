@@ -1,0 +1,26 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought skill will improve my reasoning and accuracy for future questions, especially as I encounter higher difficulty levels. I have 1 SP available and this is a foundational skill."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 2,
+    "reason": "Unlocking pe_plan provides both a planning block and a reflection call, which significantly increases accuracy across all categories and provides a safety net for errors."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 2,
+    "reason": "I am unlocking the Reflection skill to increase my accuracy. Having a second LLM call to review and correct my answers will be vital for tackling higher-level chambers and ensuring I don't lose HP unnecessarily."
+  },
+  {
+    "skill_id": "ctx_enough",
+    "skill_name": "Enough",
+    "chamber_index": 5,
+    "reason": "I am unlocking the 'ctx_enough' skill to improve my context retention. Having the last 5 Q&amp;A pairs in the message history will help maintain consistency and allow for better referencing of previous challenges and information as I progress deeper into the dungeon."
+  }
+]

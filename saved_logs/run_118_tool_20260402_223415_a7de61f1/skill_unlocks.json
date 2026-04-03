@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 1,
+    "hp_at_time": 80,
+    "chamber_index": 2,
+    "reason": "Unlocking the Chain-of-Thought skill (pe_cot) will improve reasoning accuracy for higher-level questions, which is a prudent use of my current Skill Point before attempting a challenge.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought skill (pe_cot) will improve reasoning accuracy for higher-level questions, which is a prudent use of my current Skill Point before attempting a challenge.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 4,
+    "hp_at_time": 80,
+    "chamber_index": 3,
+    "reason": "Unlocking pe_plan provides a planning block and a reflection phase (extra LLM call), which significantly increases accuracy. This is a high-value skill for tackling higher-level doors and ensures better success when using Double Down.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking pe_plan provides a planning block and a reflection phase (extra LLM call), which significantly increases accuracy. This is a high-value skill for tackling higher-level doors and ensures better success when using Double Down.</reason>",
+    "chat_history_snippet": []
+  }
+]

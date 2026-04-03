@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "sp_cost": 1,
+    "xp_at_time": 2,
+    "hp_at_time": 100,
+    "chamber_index": 1,
+    "reason": "Unlocking the Chain-of-Thought skill (pe_cot) is a high-priority strategic move. It improves reasoning accuracy for all future questions, which is essential for maintaining HP and maximizing XP gain in the long run. Since I have 1 SP available, this is the most efficient use of resources before attempting a higher-level door.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_cot</target>\n<reason>Unlocking the Chain-of-Thought skill (pe_cot) is a high-priority strategic move. It improves reasoning accuracy for all future questions, which is essential for maintaining HP and maximizing XP gain in the long run. Since I have 1 SP available, this is the most efficient use of resources before attempting a higher-level door.</reason>",
+    "chat_history_snippet": []
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "sp_cost": 1,
+    "xp_at_time": 6,
+    "hp_at_time": 20,
+    "chamber_index": 5,
+    "reason": "Unlocking 'pe_plan' adds a planning and reflection phase to my process. This is a high-value skill as it allows for self-correction (Reflection skill) which grants an additional LLM call to review and correct the answer, significantly increasing accuracy for future challenges.",
+    "raw_response": "<action>unlock_skill</action>\n<target>pe_plan</target>\n<reason>Unlocking 'pe_plan' adds a planning and reflection phase to my process. This is a high-value skill as it allows for self-correction (Reflection skill) which grants an additional LLM call to review and correct the answer, significantly increasing accuracy for future challenges.</reason>",
+    "chat_history_snippet": []
+  }
+]

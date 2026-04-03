@@ -1,0 +1,20 @@
+[
+  {
+    "skill_id": "pe_cot",
+    "skill_name": "CoT",
+    "chamber_index": 1,
+    "reason": "Chain-of-thought (CoT) is a fundamental reasoning enhancement that will improve my performance across all question categories, especially in higher-level challenges."
+  },
+  {
+    "skill_id": "pe_plan",
+    "skill_name": "Plan+Reflect",
+    "chamber_index": 1,
+    "reason": "Unlocking pe_plan provides a planning block and a reflection call, which are essential for maximizing accuracy on higher-level questions and self-correcting potential errors."
+  },
+  {
+    "skill_id": "pe_reflect",
+    "skill_name": "Reflection++",
+    "chamber_index": 5,
+    "reason": "Unlocking Reflection++ (pe_reflect) provides a dedicated review step for my answers, which is essential for maintaining high HP and ensuring accuracy as I encounter higher-level questions."
+  }
+]
