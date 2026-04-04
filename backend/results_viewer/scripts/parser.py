@@ -37,15 +37,23 @@ def parse_logs(base_dir):
                 
                 target = target_match.group(1).upper()
                 
-                # Extract door details
+                # Extract active skills count
                 prompt = ev.get("prompt", "")
+                skills_match = re.search(r'Active skills: (.*)', prompt)
+                active_skills_count = 0
+                if skills_match:
+                    skills_str = skills_match.group(1).strip()
+                    if skills_str.lower() != "none" and skills_str != "":
+                        active_skills_count = len([s.strip() for s in skills_str.split(',')])
+
+                # Extract door details
                 door_match = re.search(rf'Door {target}: Level (\d+) \| Categories:\s*(.+?)\n', prompt)
                 if door_match:
                     level = int(door_match.group(1))
                     categories = door_match.group(2).strip()
                     
                     # Assume correct, override to incorrect later
-                    q = {"seed": seed, "mode": mode, "chamber": ev.get("chamber_index"), "action": action_match.group(1).lower(), "door": target, "level": level, "category": categories, "is_correct": True}
+                    q = {"seed": seed, "mode": mode, "chamber": ev.get("chamber_index"), "action": action_match.group(1).lower(), "door": target, "level": level, "category": categories, "is_correct": True, "active_skills_count": active_skills_count}
                     questions_attempted.append(q)
                     
             elif ev.get("event_type") == "wrong_answer":
@@ -78,4 +86,3 @@ if __name__ == "__main__":
     parsed = parse_logs("/home/lakindu_linux/Desktop/comp3520_prj/dungeon_of_self/saved_logs")
     with open("/home/lakindu_linux/Desktop/comp3520_prj/dungeon_of_self/backend/results_viewer/scripts/parsed_data.json", "w") as f:
         json.dump(parsed, f, indent=2)
-
