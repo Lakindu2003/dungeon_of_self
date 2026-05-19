@@ -109,7 +109,7 @@ saved_logs/              — archived run folders used for analysis
 
 | Category           | Skills (sequential)                         |
 | ------------------ | ------------------------------------------- |
-| Prompt Engineering | Base → CoT → Plan+Reflect → Reflection++ |
+| Prompt Engineering | Base → CoT → Plan → Reflection |
 | Context            | Base → Enough → Overload → Summariser    |
 | Tools (parallel)   | Calc, Web Search, Memory                    |
 
@@ -130,17 +130,17 @@ Each run writes to `logs/run_{seed}_{mode}_{timestamp}_{id}/`:
 
 ## Results Analysis
 
-Completed runs are archived in `saved_logs/`. Statistical analysis is performed via Jupyter notebooks in `backend/results_viewer/notebooks/`:
+Completed runs are archived in `saved_logs/`. The dataset covers **156 runs in total — 78 tool mode and 78 control mode runs** across seeds 42–119 (20 chambers maximum per run). Statistical analysis is performed via Jupyter notebooks in `backend/results_viewer/notebooks/`:
 
 | Notebook                            | Analysis                                                    |
 | ----------------------------------- | ----------------------------------------------------------- |
-| `task_1_control_compare.ipynb`    | Control vs Tool mode: overall, category, and level accuracy |
-| `task_2_tool_unlocks.ipynb`       | Skill unlock frequency and stated reasons (Tool mode)       |
-| `task_3_question_selection.ipynb` | Post-mistake question selection behavior                    |
-| `task_4_double_down.ipynb`        | Double Down usage patterns and accuracy                     |
-| `task_5_flee.ipynb`               | Flee usage relative to door difficulty and skill count      |
-| `task_5_memory.ipynb`             | Memory tool usage frequency and stored content              |
-| `task_6_reroll.ipynb`             | Reroll usage relative to door difficulty and skill count    |
+| `task_1_control_compare.ipynb`    | General performance tests: overall, category, and level accuracy — no significant differences (all p > 0.05) |
+| `task_2_tool_unlocks.ipynb`       | Skill unlock frequency; dummy skills pe_cot and pe_plan significantly over-selected (p = 8.24e-8) |
+| `task_3_question_selection.ipynb` | Post-mistake question selection; borderline level-avoidance result in Tool mode (p = 0.051) |
+| `task_4_double_down.ipynb`        | Double Down usage; 3 significant results: Language category deprioritized, level 2 questions prioritized |
+| `task_5_flee.ipynb`               | Flee ability — neither mode used Flee across all 78 runs per mode |
+| `task_5_memory.ipynb`             | Memory tool usage frequency and stored content |
+| `task_6_reroll.ipynb`             | Reroll ability — neither mode used Reroll across all 78 runs per mode |
 
 To run the notebooks, first parse the saved logs by running the scripts in `backend/results_viewer/scripts/`:
 
